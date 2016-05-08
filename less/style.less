@@ -1,9 +1,11 @@
-@import 'blocks/variables.less';
-
-@import 'blocks/btn.less';
-@import 'blocks/global.less';
-@import 'blocks/global-type.less';
-@import 'blocks/page-header.less';
+@import 'blocks/block-variables/variables.less';
+@import 'blocks/block-btn/btn.less';
+@import 'blocks/block-global/global.less';
+@import 'blocks/block-typography/typography.less';
+@import 'blocks/block-page-header/page-header.less';
+@import 'blocks/block-main-nav/main-nav.less';
+@import 'blocks/block-rest-tabs/rest-tabs.less';
+@import 'blocks/block-reviews/review.less';
 
 
 
@@ -16,16 +18,16 @@
   color:                    @gray-dark;
   margin:                   0;
   display:                  block;
-  font-size:                @text-h1;
+  font-size:                @text-size-xxl;
 
 }
 .text-h2{
   &:extend(.text-h1);
-  font-size:                @text-h2;
+  font-size:                @text-size-xl;
 }
 .text-h3{
   &:extend(.text-h1);
-  font-size:                @text-h3;
+  font-size:                @text-size-sm;
   text-transform:           uppercase;
 }
 
