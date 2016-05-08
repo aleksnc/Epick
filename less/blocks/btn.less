@@ -1,0 +1,94 @@
+.btn{
+  background:                  @color-second;
+  color:                       #fff;
+  border-radius:               25px;
+  padding:                     13px 0;
+  display:                     block;
+  text-align:                  center;
+  width:                       184px;
+  border:                      none;
+  outline:                     none;
+  font-size:                   14px;
+  font-weight:                 500;
+
+  &:hover{
+    background:                @color-second-active;
+  }
+}
+
+.btn--icon-calendar{
+  &:extend(.btn);
+  background:                   url(../img/calendar.png) 16px 13px no-repeat @color-second;
+  padding-left:                 15px;
+  width:                        169px;
+
+  &:hover{
+    background:                 url(../img/calendar.png) 16px 13px no-repeat @color-second-active;
+  }
+}
+
+button.btn--icon-calendar{
+  width: 184px;
+}
+
+.btn--borderend{
+  &:extend(.btn);
+  background:                   none;
+  border:                       solid 2px #fff;
+
+  &:hover{
+    color:                      @color-primary-active;
+    background:                 #fff;
+  }
+}
+
+.btn--background{
+  &:extend(.btn);
+  border-radius:                0;
+  background:                   @color-primary;
+
+  &:hover{
+    background:                 @color-primary-active;
+  }
+}
+
+.btn--stipple {
+  color:                        @gray-dark;
+  border-radius:                0;
+  background:                   none;
+  border-bottom:                2px dashed @gray-dark;
+  text-decoration:              none;
+  padding:                      13px 0 4px;
+  width:                        auto;
+
+  &:hover{
+    border-bottom:              none;
+    background:                 none;
+  }
+}
+.btn-social{
+  display:                      block;
+  width:                        25px;
+  height:                       20px;
+  background:                   url(img/vk.png) no-repeat;
+}
+
+.btn-social--f{
+  background:                   url(img/face.png) no-repeat;
+}
+
+.btn-social--insta{
+  background:                   url(img/insta.png) no-repeat;
+}
+
+.btn-green--vk{
+  background:                   url(img/green-vk.png) no-repeat;
+}
+
+.btn-green--f{
+  background:                   url(img/green-face.png) no-repeat;
+}
+
+.btn-green--insta {
+  background:                   url(img/green-insta);
+}

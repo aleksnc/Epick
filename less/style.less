@@ -1,0 +1,43 @@
+@import 'blocks/variables.less';
+
+@import 'blocks/btn.less';
+@import 'blocks/global.less';
+@import 'blocks/global-type.less';
+@import 'blocks/page-header.less';
+
+
+
+
+
+
+
+.text-h1{
+  font-family:              @font-family-h;
+  color:                    @gray-dark;
+  margin:                   0;
+  display:                  block;
+  font-size:                @text-h1;
+
+}
+.text-h2{
+  &:extend(.text-h1);
+  font-size:                @text-h2;
+}
+.text-h3{
+  &:extend(.text-h1);
+  font-size:                @text-h3;
+  text-transform:           uppercase;
+}
+
+.text-accent{
+  &:extend(.text-h1);
+  font-size:                @text-size-l;
+}
+.text-normal{
+  &:extend(.text-h1);
+  font-size:                @text-size;
+}
+.text-sm{
+  &:extend(.text-h1);
+  font-size:                @text-size-sm;
+}

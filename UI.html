@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UI KIT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background: lightblue;
+        }
+        .type{
+            width: 1200px;
+            padding: 10px;
+            margin: 20px;
+            float: left;
+        }
+
+        a.btn, button.btn{
+            float:  left;
+            margin: 0 10px;
+        }
+        .title{
+            font-size: 26px;
+            color: gray;
+            display: block;
+            width: 100%;
+            float: left;
+        }
+        .title-sm{
+            font-size: 20px;
+            color: gray;
+            display: block;
+            width: 100%;
+            float: left;
+        }
+        ul, li{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+        }
+    </style>
+</head>
+<body>
+        <div class="type">
+            <span class="title">Typography</span>
+            <span class="title-sm">H1</span> <h1  class="text-h1">Семейный отдых на  берегу Финского залива</h1>
+            <span class="title-sm">H2</span> <h2  class="text-h2">Здоровый отдых</h2>
+            <span class="title-sm">H3</span> <h3  class="text-h3">Шаг 1</h3>
+            <span class="title-sm">Accent</span>  <span class="text-accent">
+                                                            Green Valley - это современная база отдыха
+                                                            в курортном районе для здорового отдыха всей семёй.
+                                                     </span>
+            <span class="title-sm">Normal</span>  <span class="text-normal">
+                                                        В отеле 30 таких номеров площадью от 16 до 20 кв.м. Рассчитаны на проживание 1-2 человек.
+                                                        Часть номеров с видом на Финский залив.
+                                                     </span>
+            <span class="title-sm">Small</span>  <span class="text-sm">г. Санкт-Петербург, Приморское ш.600</span>
+
+        </div>
+
+        <div class="type">
+            <span class="title">MENU</span>
+            <span class="title-sm">Normal</span>
+                <ul>
+                    <li class="header-menu">
+                        <a href="#">НОМЕРА</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="header-menu">
+                        <a href="#">Коттедж</a>
+                    </li>
+                </ul>
+            <span class="title-sm">Active: level 1</span >
+                <ul>
+                    <li  class="header-menu-l1">
+                        <a href="#">
+                            НОМЕРА
+                            <span class="line-l1"></span>
+                        </a>
+
+                    </li>
+                </ul>
+
+                <ul>
+                    <li  class="header-menu-l1">
+                        <a href="#">
+                            Коттедж
+                            <span class="line-l1"></span>
+                        </a>
+
+                    </li>
+                </ul>
+            <span class="title-sm">Active: level 2</span>
+                <ul>
+                    <li  class="header-menu-l2">
+                        <a href="#">
+                            НОМЕРА
+                            <span class="line-l1"></span>
+                            <span class="line-l2"></span>
+                        </a>
+
+                    </li>
+                </ul>
+
+                <ul>
+                    <li  class="header-menu-l2">
+                        <a href="#">
+                            Коттедж
+                            <span class="line-l1"></span>
+                            <span class="line-l2"></span>
+                        </a>
+
+                    </li>
+                </ul>
+
+
+
+        </div>
+
+        <div class="type">
+            <span class="title">Button</span>
+            <a href="#" class="btn">ЗАБРОНИРОВАТЬ</a>
+            <a href="#" class="btn btn--icon-calendar">ЗАБРОНИРОВАТЬ</a>
+            <a href="#" class="btn btn--borderend">ЗАБРОНИРОВАТЬ</a>
+            <a href="#" class="btn btn--background">ЗАБРОНИРОВАТЬ</a>
+            <a href="#" class="btn btn--stipple">ЗАБРОНИРОВАТЬ</a>
+        </div>
+        <br>
+        <div class="type">
+            <button href="#" class="btn">ЗАБРОНИРОВАТЬ</button>
+            <button href="#" class="btn btn--icon-calendar">ЗАБРОНИРОВАТЬ</button>
+            <button href="#" class="btn btn--borderend">ЗАБРОНИРОВАТЬ</button>
+            <button href="#" class="btn btn--background">ЗАБРОНИРОВАТЬ</button>
+            <button href="#" class="btn btn--stipple">ЗАБРОНИРОВАТЬ</button>
+        </div>
+</body>
+</html>

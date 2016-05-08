@@ -1,0 +1,51 @@
+
+.line-l1, .line-l2{
+  border-bottom:                2px solid @color-second;
+  width:                        20px;
+  display:                      block;
+  margin:                       2px auto;
+}
+
+.header-menu {
+  color:                        @gray-dark;
+  font-size:                    @text-size-sm;
+  text-transform:               uppercase;
+  font-weight:                  500;
+  display:                      block;
+  float:                        left;
+  margin:                       5px;
+
+  a{
+    &:hover{
+      color:                    @color-second;
+    }
+  }
+}
+
+.header-menu-l1{
+  &:extend(.header-menu);
+  color:                        @color-second;
+
+  a{
+    &:hover > .line-l1{
+      opacity:                    0;
+    }
+  }
+}
+
+
+.header-menu-l2{
+  &:extend(.header-menu);
+  color:                        @color-second;
+
+  a{
+    &:hover > .line-l2{
+     opacity:                    0;
+    }
+  }
+}
+
+
+
+
+
