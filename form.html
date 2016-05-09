@@ -1,38 +1,41 @@
-<!DOCTYPE html>
+<!doctype>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Form</title>
-    </head>
-    <body>
-        <header class="page-header">
-            <div class="page-header__inner">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="page-header">
+    <div class="page-header__inner">
 
-                <a class="logo">
-                    <img src=""></img>
-                </a>
-                <nav class="mai-nav">
-                    <ul class="main-nav__list">
-                        <li class="main-nav__link">КНОПКА</li>
-                        <li class="main-nav__link">КНОПКА</li>
-                        <li class="main-nav__link">КНОПКА</li>
-                        <li class="mai-nav__link">КНОПКА</li>
-                        <li class="mai-nav__link">КНОПКА</li>
-                    </ul>
-                    <span class="main-nav__burger"></span>
-                </nav>
+        <a href="index.html" class="logo">
 
-                <div class="page-header__contacts">
-                    <a href="tel:+999999999">99999999</a>
-                    просто текст
-                </div>
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav__list">
+                <li class="main-nav__link">номера</li>
+                <li class="main-nav__link">коттедж</li>
+                <li class="main-nav__link">ресторан</li>
+                <li class="main-nav__link">отдых</li>
+                <li class="main-nav__link">контакты</li>
+            </ul>
+            <span class="main-nav__burger"></span>
+        </nav>
 
-                <a href="" class="btn  btn--icon-calendar">Бронь</a>
-            </div>
-        </header>
+        <div class="page-header__contacts">
+            <a href="tel:++78127775588">+7 812 777-55-88</a>
+            г. Санкт-Петербург, Приморское ш.600
+        </div>
+
+        <a href="" class="btn  btn--icon-calendar">Забронировать</a>
+    </div>
+</header>
         <div class="form-header">
             <span class="form-header__title">Бронирование</span>
-            <span class="form-header__description">Бронирование</span>
+            <span class="form-header__description">Чтобы забронировать номер в отеле или коттедж,
+                заполните форму ниже или просто позвоните
+                по телефону:<span class="color-attention">+7 812 777-55-88 </span> </span>
         </div>
         <form class="form">
             <section class="form__step step--color">
@@ -57,12 +60,8 @@
                 <span class="form__step-title" >Шаг2</span>
                 <span class="form__step-description">Место проживания</span>
                 <ul class="stay-tabs__switcher">
-                    <li>
-                        <a href="">Отель</a>
-                    </li>
-                    <li>
-                        <a href="">Коттедж</a>
-                    </li>
+                        <input type="radio" name="switch" >Отель
+                        <input type="radio" name="switch">Коттедж
                 </ul>
                 <article class="stay-type step--color">
                     <span class="form__step-title" >Шаг3</span>
@@ -70,50 +69,50 @@
 
                     <ul class="stay-type__switcher">
                         <li>
-                            <a href="">Флагман</a>
+                            <input type="radio" name="switch-2" >Флагман
                         </li>
                         <li>
-                            <a href="">Озерный</a>
+                            <input type="radio" name="switch-2" >Озерный
                         </li>
                         <li>
-                            <a href="">Ольховка</a>
+                            <input type="radio" name="switch-2" >Ольховка
                         </li>
                         <li>
-                            <a href="">Портовый</a>
+                            <input type="radio" name="switch-2" >Портовый
                         </li>
                     </ul>
 
 
                     <ul class="stay-type__switcher">
                         <li>
-                            <a href="">Бла бла </a>
+                            <input type="radio" name="switch-2" >Флагман
                         </li>
                         <li>
-                            <a href="">Бла бла</a>
+                            <input type="radio" name="switch-2" >Озерный
                         </li>
                         <li>
-                            <a href="">Бла бла</a>
+                            <input type="radio" name="switch-2" >Ольховка
                         </li>
                         <li>
-                            <a href="">Бла бла</a>
+                            <input type="radio" name="switch-2" >Портовый
                         </li>
                     </ul>
 
                     <ul class="stay-type__description">
                         <li>
-                            <a href="">Площадь 100м</a>
+                            <input type="radio" name="switch-3" >Площадь 100м
                         </li>
                         <li>
-                            <a href="">3 Комнаты</a>
+                            <input type="radio" name="switch-3" >3 Комнаты
                         </li>
                         <li>
-                            <a href="">5 Спальных мест</a>
+                            <input type="radio" name="switch-3" >5 Спальных мест
                         </li>
                         <li>
-                            <a href="">Раздельный санузел</a>
+                            <input type="radio" name="switch-3" >Раздельный санузел
                         </li>
                         <li>
-                            <a href="">Wi-Fi</a>
+                            <input type="radio" name="switch-3" >Wi-Fi
                         </li>
                     </ul>
                 </article>
@@ -125,11 +124,12 @@
                 <input type="text" class="your-name">
                 <div class="your-contact">
                     <input type="tel" >
-                    <span class="your-contact__descrption">С вами свяжутся</span>
+                    <span class="your-contact__descrption">Мы свяжемся с вами в случае необходимости.</span>
                 </div>
                 <div class="your-contact">
                     <input type="email" >
-                    <span class="your-contact__descrption">С вами свяжутся</span>
+                    <span class="your-contact__descrption">На этот адрес мы вышлем вам подтверждение
+                            о забронированном номере.</span>
                 </div>
             </section>
             <input type="button" class="btn btn--background" value="Забронировать">
@@ -142,9 +142,9 @@
                 <a class="logo">
                     <img src=""></img>
                 </a>
-                <a href="" class="btn-social  btn--green--vk"></a>
-                <a href="" class="btn-social  btn--green--insta"></a>
-                <a href="" class="btn-social  btn--green--f"></a>
+                <a href="" class="btn-social  btn--second--vk"></a>
+                <a href="" class="btn-social  btn--second--insta"></a>
+                <a href="" class="btn-social  btn--second--f"></a>
             </div>
             <div class="page-footer__contacts">
 

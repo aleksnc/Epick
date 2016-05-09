@@ -16,6 +16,9 @@
   margin: 0;
   display: block;
 }
+.color-attention {
+  color: #e85715;
+}
 .btn,
 .btn--icon-calendar,
 .btn--borderend,
@@ -37,12 +40,12 @@
   background: #e85715;
 }
 .btn--icon-calendar {
-  background: url(../img/calendar.png) 16px 13px no-repeat #ff7435;
+  background: url('../img/calendar.png') 16px 13px no-repeat #ff7435;
   padding-left: 15px;
   width: 169px;
 }
 .btn--icon-calendar:hover {
-  background: url(../img/calendar.png) 16px 13px no-repeat #e85715;
+  background: url('../img/calendar.png') 16px 13px no-repeat #e85715;
 }
 button.btn--icon-calendar {
   width: 184px;
@@ -70,6 +73,7 @@ button.btn--icon-calendar {
   text-decoration: none;
   padding: 13px 0 4px;
   width: auto;
+  width: 81px;
 }
 .btn--stipple:hover {
   border-bottom: none;
@@ -79,22 +83,25 @@ button.btn--icon-calendar {
   display: block;
   width: 25px;
   height: 20px;
-  background: url(../img/vk.png) no-repeat;
+  background: url('../img/vk.png') no-repeat;
 }
 .btn-social--f {
-  background: url(../img/facebook.png) no-repeat;
+  background: url('../img/facebook.png') no-repeat;
 }
 .btn-social--insta {
-  background: url(img/insta.png) no-repeat;
+  background: url('../img/insta.png') no-repeat;
 }
-.btn-green--vk {
-  background: url(img/green-vk.png) no-repeat;
+.btn--second--vk {
+  background: url('../img/vk-second.png') no-repeat;
+  float: left;
 }
-.btn-green--f {
-  background: url(img/green-face.png) no-repeat;
+.btn--second--f {
+  background: url('../img/face-second.png') no-repeat;
+  float: left;
 }
-.btn-green--insta {
-  background: url(img/green-insta);
+.btn--second--insta {
+  background: url('../img/insta-second.png');
+  float: left;
 }
 body {
   color: #191919;
@@ -104,6 +111,8 @@ body {
   display: block;
   height: 49px;
   width: 143px;
+  background: url('../img/logo.png') no-repeat;
+  text-decoration: none;
 }
 a,
 button {
@@ -272,6 +281,28 @@ li {
 }
 .reviews__title {
   color: #ffffff;
+}
+.aparts__type {
+  font-family: 'PT Serif Caption', sans-serif;
+  font-size: 26px;
+}
+.aparts__price {
+  font-size: 14px;
+}
+.form__step-title {
+  font-size: 14px;
+  color: #838383;
+}
+.form__step-description {
+  font-size: 26px;
+  font-family: 'PT Serif Caption', sans-serif;
+}
+.form-header__title {
+  font-size: 30px;
+  font-family: 'PT Serif Caption', sans-serif;
+}
+.form-header__description {
+  font-size: 16px;
 }
 .text-h1,
 .text-h2,
