@@ -27,32 +27,28 @@
   text-transform: uppercase;
   color: #fff;
   border-radius: 25px;
-  padding: 8px 0;
+  padding: 10px 0 6px;
   display: block;
   text-align: center;
-  width: 144px;
-  border: none;
+  width: 142px;
   outline: none;
   font-size: 14px;
   font-weight: 500;
+  border: solid 2px;
 }
 .btn:hover {
   background: #e85715;
 }
 .btn--icon-calendar {
-  background: url('../img/calendar.png') 16px 13px no-repeat #ff7435;
+  background: url('../img/calendar.png') 16px 9px no-repeat #ff7435;
   padding-left: 15px;
-  width: 169px;
+  width: 161px;
 }
 .btn--icon-calendar:hover {
-  background: url('../img/calendar.png') 16px 13px no-repeat #e85715;
-}
-button.btn--icon-calendar {
-  width: 184px;
+  background: url('../img/calendar.png') 16px 9px no-repeat #e85715;
 }
 .btn--borderend {
   background: none;
-  border: solid 2px #fff;
 }
 .btn--borderend:hover {
   color: #079b84;
@@ -69,6 +65,7 @@ button.btn--icon-calendar {
   color: #191919;
   border-radius: 0;
   background: none;
+  border: none;
   border-bottom: 2px dashed #191919;
   text-decoration: none;
   padding: 13px 0 4px;
@@ -80,27 +77,29 @@ button.btn--icon-calendar {
   background: none;
 }
 .btn-social {
-  display: block;
-  width: 25px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 45px;
   height: 20px;
-  background: url('../img/vk.png') no-repeat;
+  background: url('../img/vk.png') center no-repeat;
 }
 .btn-social--f {
-  background: url('../img/facebook.png') no-repeat;
+  background: url('../img/facebook.png') center no-repeat;
 }
 .btn-social--insta {
-  background: url('../img/insta.png') no-repeat;
+  background: url('../img/insta.png') center no-repeat;
 }
 .btn--second--vk {
-  background: url('../img/vk-second.png') no-repeat;
+  background: url('../img/vk-second.png') left no-repeat;
   float: left;
 }
 .btn--second--f {
-  background: url('../img/face-second.png') no-repeat;
+  background: url('../img/face-second.png') right no-repeat;
   float: left;
 }
 .btn--second--insta {
-  background: url('../img/insta-second.png');
+  background: url('../img/insta-second.png') center no-repeat;
   float: left;
 }
 body {
@@ -113,6 +112,7 @@ body {
   width: 143px;
   background: url('../img/logo.png') no-repeat;
   text-decoration: none;
+  margin-bottom: 13px;
 }
 a,
 button {

@@ -1,16 +1,16 @@
 .btn{
   background:                  @color-second;
-  text-transform:               uppercase;
+  text-transform:              uppercase;
   color:                       #fff;
   border-radius:               25px;
-  padding:                     8px 0;
+  padding:                     10px 0 6px;
   display:                     block;
   text-align:                  center;
-  width:                       144px;
-  border:                      none;
+  width:                       142px;
   outline:                     none;
   font-size:                   14px;
   font-weight:                 500;
+  border:                      solid 2px;
 
   &:hover{
     background:                @color-second-active;
@@ -19,23 +19,19 @@
 
 .btn--icon-calendar{
   &:extend(.btn);
-  background:                   url('@{img-path}calendar.png') 16px 13px no-repeat @color-second;
+  background:                   url('@{img-path}calendar.png') 16px 9px no-repeat @color-second;
   padding-left:                 15px;
-  width:                        169px;
+  width:                        161px;
 
   &:hover{
-    background:                 url('@{img-path}calendar.png') 16px 13px no-repeat @color-second-active;
+    background:                 url('@{img-path}calendar.png') 16px 9px no-repeat @color-second-active;
   }
 }
 
-button.btn--icon-calendar{
-  width: 184px;
-}
 
 .btn--borderend{
   &:extend(.btn);
   background:                   none;
-  border:                       solid 2px #fff;
 
   &:hover{
     color:                      @color-primary-active;
@@ -57,6 +53,7 @@ button.btn--icon-calendar{
   color:                        @gray-dark;
   border-radius:                0;
   background:                   none;
+  border:                       none;
   border-bottom:                2px dashed @gray-dark;
   text-decoration:              none;
   padding:                      13px 0 4px;
@@ -69,31 +66,31 @@ button.btn--icon-calendar{
   }
 }
 .btn-social{
-  display:                      block;
-  width:                        25px;
+  display:                      inline-flex;
+  width:                        45px;
   height:                       20px;
-  background:                   url('@{img-path}vk.png') no-repeat;
+  background:                   url('@{img-path}vk.png') center no-repeat;
 }
 
 .btn-social--f{
-  background:                   url('@{img-path}facebook.png') no-repeat;
+  background:                   url('@{img-path}facebook.png') center no-repeat;
 }
 
 .btn-social--insta{
-  background:                   url('@{img-path}insta.png') no-repeat;
+  background:                   url('@{img-path}insta.png')center no-repeat;
 }
 
 .btn--second--vk{
-  background:                   url('@{img-path}vk-second.png') no-repeat;
+  background:                   url('@{img-path}vk-second.png') left no-repeat;
   float: left;
 }
 
 .btn--second--f{
-  background:                   url('@{img-path}face-second.png') no-repeat;
+  background:                   url('@{img-path}face-second.png') right no-repeat;
   float: left;
 }
 
 .btn--second--insta {
-  background:                   url('@{img-path}insta-second.png');
+  background:                   url('@{img-path}insta-second.png') center no-repeat;
   float: left;
 }
