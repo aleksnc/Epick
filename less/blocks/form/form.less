@@ -1,17 +1,25 @@
 .form{
+  .container-fluid();
 
   &__step{
+    .row();
+    text-align: center;
+    padding: 50px 0 100px;
 
   }
 
   &__step-title{
+    text-transform:       uppercase;
     font-size:            @text-size-sm;
-    color:                @gray-light;
+    color:                @gray;
+    display:              block;
   }
 
   &__step-description{
-    font-size:            26px;
+    font-size:            (@text-size-xl)-4;
     font-family:          @font-family-h;
+    display:              block;
+    margin: 10px;
   }
 }
 

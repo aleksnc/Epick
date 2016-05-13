@@ -1,10 +1,22 @@
 .page-footer{
-
+  .container();
+  display:                      flex;
+  justify-content:              space-between;
+  &__adress{
+    .hidden-xs();
+    width:                      200px;
+  }
   &__our-social{
+
     display:                    flex;
     flex-wrap:                  wrap;
     justify-content:            space-between;
-    width:                      143px;
+    max-width:                  142px;
 
+  }
+
+  &__contacts{
+    .hidden-xs();
+    width:                      130px;
   }
 }

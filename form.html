@@ -8,8 +8,11 @@
 <body>
 <header class="page-header">
     <div class="page-header__inner">
+        <div class="logo__wrapper">
+            <a  href="index.html"  class="logo">
 
-        <a href="index.html" class="logo"> </a>
+            </a>
+        </div>
         <nav class="main-nav">
             <ul class="main-nav__list">
                 <li class="main-nav__link">номера</li>
@@ -22,10 +25,9 @@
         </nav>
 
         <div class="page-header__contacts">
-            <a href="tel:++78127775588">+7 812 777-55-88</a>
+            <a href="tel:+78127775588">+7 812 777-55-88</a>
             г. Санкт-Петербург, Приморское ш.600
         </div>
-
         <a href="" class="btn  btn--icon-calendar">Забронировать</a>
     </div>
 </header>
@@ -33,36 +35,36 @@
             <span class="form-header__title">Бронирование</span>
             <span class="form-header__description">Чтобы забронировать номер в отеле или коттедж,
                 заполните форму ниже или просто позвоните
-                по телефону:<span class="color-attention">+7 812 777-55-88 </span> </span>
+                по телефону:<span class="color-attention"> +7 812 777-55-88 </span> </span>
         </div>
         <form class="form">
             <section class="form__step step--color">
-                <span class="form__step-title" >Шаг1</span>
+                <span class="form__step-title" >Шаг 1</span>
                 <span class="form__step-description">Дата отдыха</span>
                 <div class="length-stay">
-                    <div class="length-stay__entry-exit">
-                        <span>Дата Въезда</span>
-                        <input class="length-stay__entry-exit-d" type="number">
-                        <input class="length-stay__entry-exit-d"type="number">
-                        <input class="length-stay__entry-exit-d"type="number">
+                    <div class="length-stay__entry-exit border-right">
+                        <span class="length-stay__title">Дата Въезда</span>
+                        <input class="length-stay__entry-exit-d day" type="number">
+                        <input class="length-stay__entry-exit-d month"type="number">
+                        <input class="length-stay__entry-exit-d year"type="number">
                     </div>
                     <div class="length-stay__entry-exit">
-                        <span>Дата Выезда</span>
-                        <input class="length-stay__entry-exit-d" type="number">
-                        <input class="length-stay__entry-exit-d" type="number">
-                        <input class="length-stay__entry-exit-d" type="number">
+                        <span class="length-stay__title">Дата Выезда</span>
+                        <input class="length-stay__entry-exit-d day" type="number">
+                        <input class="length-stay__entry-exit-d month"type="number">
+                        <input class="length-stay__entry-exit-d year"type="number">
                     </div>
                 </div>
             </section>
             <section class="form__step">
-                <span class="form__step-title" >Шаг2</span>
+                <span class="form__step-title" >Шаг 2</span>
                 <span class="form__step-description">Место проживания</span>
                 <ul class="stay-type__switcher">
                         <input type="radio" name="switch" >Отель
                         <input type="radio" name="switch">Коттедж
                 </ul>
                 <article class="stay-type step--color">
-                    <span class="form__step-title" >Шаг3</span>
+                    <span class="form__step-title" >Шаг 3</span>
                     <span class="form__step-description">Тип коттеджа</span>
 
                     <ul class="stay-type__switcher">
@@ -116,7 +118,7 @@
                 </article>
             </section>
             <section class="form__step">
-                <span class="form__step-title" >Шаг4</span>
+                <span class="form__step-title" >Шаг 4</span>
                 <span class="form__step-description">Персональная информация</span>
                 <input type="text" class="your-name">
                 <input type="text" class="your-name">
@@ -132,20 +134,23 @@
             </section>
             <input type="button" class="btn btn--background" value="Забронировать">
         </form>
-        <footer class="page-footer">
-            <div class="page-footer__adress">
+    <footer class="page-footer">
+    <div class="page-footer__adress">
+        г. Санкт-Петербург
+        Приморское ш.600
+    </div>
+    <div class="page-footer__our-social">
+        <a  href="index.html" class="logo">
 
-            </div>
-            <div class="page-footer__our-social">
-                <a class="logo">
-                </a>
-                <a href="" class="btn-social  btn--second--vk"></a>
-                <a href="" class="btn-social  btn--second--insta"></a>
-                <a href="" class="btn-social  btn--second--f"></a>
-            </div>
-            <div class="page-footer__contacts">
-
-            </div>
-        </footer>
+        </a>
+        <a href="#" class="btn-social  btn--second--vk"></a>
+        <a href="#" class="btn-social  btn--second--insta"></a>
+        <a href="#" class="btn-social  btn--second--f"></a>
+    </div>
+    <div class="page-footer__contacts">
+        +7 812 777-55-88
+        info@greenvalley.ru
+    </div>
+</footer>
     </body>
 </html>

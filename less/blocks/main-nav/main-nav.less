@@ -1,11 +1,19 @@
-.main-nav{
 
+.main-nav{
+  .make-xs-column(2);
+  .make-lg-column(5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 59px;
   &__list{
+    .visible-lg-block();
+    align-self: center;
     color:                        @gray-dark;
     font-size:                    @text-size-sm;
     text-transform:               uppercase;
-    font-weight:                  500;
-    display:                      block;
+    font-weight:                  400;
+    //display:                      block;
   }
 
   &__link{
@@ -16,55 +24,13 @@
       color:                    @color-second;
     }
   }
-}
 
-
-
-/*
-.line-l1, .line-l2{
-  border-bottom:                2px solid @color-second;
-  width:                        20px;
-  display:                      block;
-  margin:                       2px auto;
-}
-
-.header-menu {
-  color:                        @gray-dark;
-  font-size:                    @text-size-sm;
-  text-transform:               uppercase;
-  font-weight:                  500;
-  display:                      block;
-  float:                        left;
-  margin:                       5px;
-
-  a{
-    &:hover{
-      color:                    @color-second;
-    }
+  &__burger{
+    .hidden-lg();
+    display: block;
+    width: 25px;
+    height: 25px;
+    background:               url('@{img-path}icon-burger.png') no-repeat;
+    align-self: center;
   }
 }
-
-.header-menu-l1{
-  &:extend(.header-menu);
-  color:                        @color-second;
-
-  a{
-    &:hover > .line-l1{
-      opacity:                    0;
-    }
-  }
-}
-
-
-.header-menu-l2{
-  &:extend(.header-menu);
-  color:                        @color-second;
-
-  a{
-    &:hover > .line-l2{
-      opacity:                    0;
-    }
-  }
-}
-
-*/

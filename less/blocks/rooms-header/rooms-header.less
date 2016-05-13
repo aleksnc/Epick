@@ -1,0 +1,40 @@
+.rooms-header{
+  .container-fluid();
+  position:                                         relative;
+  background:                                       url('@{img-path}rooms-header--bg.png') 0 50% no-repeat;
+  background-size:                                  cover;
+  height:                                           200px;
+  text-align:                                       center;
+  color:                                            #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+
+  &__title{
+    font-size:                                      @text-size-xxl;
+    font-family:                                    @font-family-h;
+    font-weight:                                    400;
+    letter-spacing:                                 1.3px;
+  }
+
+  &__description{
+    .hidden-xs();
+    display:                                        block;
+    font-size:                                      @text-size-l;
+    font-weight:                                    400;
+    letter-spacing:                                 0.15px;
+  }
+
+  /*&:before {
+    content:                                        "";
+    position:                                       absolute;
+    width:                                          100%;
+    height:                                         100%;
+    background:                                     rgba(0,0,0,0.5);
+    padding:                                        15px 0 30px;
+    margin-left:                                    -15px;
+
+  }*/
+}
+

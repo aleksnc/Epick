@@ -1,31 +1,35 @@
 .btn{
+  color:                       #fff;
   background:                  @color-second;
   text-transform:              uppercase;
-  color:                       #fff;
   border-radius:               25px;
-  padding:                     10px 0 6px;
+  padding:                     8px 0 5px;
   display:                     block;
   text-align:                  center;
-  width:                       142px;
   outline:                     none;
   font-size:                   14px;
   font-weight:                 500;
   border:                      solid 2px;
+  width:                       181px;
+  border-color:                @color-second;
 
   &:hover{
     background:                @color-second-active;
+    border-color:              @color-second-active;
+    color:                     #fff;
   }
 }
 
 .btn--icon-calendar{
+
   &:extend(.btn);
-  background:                   url('@{img-path}calendar.png') 16px 9px no-repeat @color-second;
+  background:                   url('@{img-path}icon-calendar.png') 16px 9px no-repeat @color-second;
   padding-left:                 15px;
-  width:                        161px;
 
   &:hover{
-    background:                 url('@{img-path}calendar.png') 16px 9px no-repeat @color-second-active;
+    background:                 url('@{img-path}icon-calendar.png') 16px 9px no-repeat @color-second-active;
   }
+  .visible-lg-inline-block;
 }
 
 
@@ -43,9 +47,11 @@
   &:extend(.btn);
   border-radius:                0;
   background:                   @color-primary;
+  border-color:                 @color-primary;
 
   &:hover{
     background:                 @color-primary-active;
+    border-color:               @color-primary-active;
   }
 }
 
@@ -57,11 +63,11 @@
   border-bottom:                2px dashed @gray-dark;
   text-decoration:              none;
   padding:                      13px 0 4px;
-  width:                        auto;
   width:                        81px;
 
   &:hover{
-    border-bottom:              none;
+    color:                      #000;
+    border-color:               #fff;
     background:                 none;
   }
 }
@@ -69,28 +75,28 @@
   display:                      inline-flex;
   width:                        25px;
   height:                       20px;
-  background:                   url('@{img-path}vk.png') center no-repeat;
+  background:                   url('@{img-path}icon-vk.png') center no-repeat;
 }
 
 .btn-social--f{
-  background:                   url('@{img-path}facebook.png') center no-repeat;
+  background:                   url('@{img-path}icon-facebook.png') center no-repeat;
 }
 
 .btn-social--insta{
-  background:                   url('@{img-path}insta.png')center no-repeat;
+  background:                   url('@{img-path}icon-insta.png')center no-repeat;
 }
 
 .btn--second--vk{
-  background:                   url('@{img-path}vk-second.png')  no-repeat;
+  background:                   url('@{img-path}icon-vk-second.png')  no-repeat;
   float: left;
 }
 
 .btn--second--f{
-  background:                   url('@{img-path}face-second.png')  no-repeat;
+  background:                   url('@{img-path}icon-face-second.png')  no-repeat;
   float: left;
 }
 
 .btn--second--insta {
-  background:                   url('@{img-path}insta-second.png')  no-repeat;
+  background:                   url('@{img-path}icon-insta-second.png')  no-repeat;
   float: left;
 }

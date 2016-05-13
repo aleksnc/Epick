@@ -11,7 +11,10 @@
 
 
 @gray-dark:                           #191919;
-@gray-light:                          #838383;
+@gray-shadow:                         #4c4c4c;
+@gray:                                #838383;
+@gray-light:                          #ebebeb;
+@gray-wight:                          #fafafa;
 
 @font-family:                        'fira sans', sans-serif;
 @font-family-h:                      'PT Serif Caption', sans-serif;
@@ -20,6 +23,7 @@
 @screen-md:                           1200px;
 
 @img-path:                            '../img/';
+//@img-path-room:                       '../img/rooms';
 
 
 .line-l1, .line-l2{
@@ -37,6 +41,42 @@
   display:                            block;
 }
 
+
+.description-list{
+  column-count: 2;
+}
+
 .color-attention{
   color: @color-second-active;
+  font-size: @text-size-l;
+}
+
+.step--color{
+  background: @gray-wight;
+}
+
+.room-img--lg{
+  .visible-lg-block();
+}
+.room-img--xs{
+  .hidden-lg();
+}
+
+
+
+.day{
+  width:                              41px;
+}
+
+.month{
+  width:                              45px;
+}
+
+.year{
+  width:                              50px;
+}
+
+
+.border-right{
+  border-right:                       solid 2px @gray-light;
 }

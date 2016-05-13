@@ -1,11 +1,18 @@
 .form-header {
-
+  .container();
+  text-align:                               center;
+  margin:                                   20px auto;
   &__title{
-    font-size: @text-size-xl;
-    font-family: @font-family-h;
+    .make-lg-column-offset(4);
+    .make-lg-column(4);
+    font-size:                              @text-size-xl;
+    font-family:                            @font-family-h;
   }
   &__description{
-    font-size: @text-size;
+    .make-lg-column-offset(4);
+    .make-lg-column(4);
+    font-size:                              @text-size;
+    display:                                block;
   }
 }
 

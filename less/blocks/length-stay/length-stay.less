@@ -1,10 +1,26 @@
-.lenght-stay{
-
+.length-stay{
+  .make-lg-column-offset(4);
+  .make-lg-column(4);
+  .container-fluid();
+  .row();
+  background:                         #fff;
+  text-align:                         center;
+  text-transform:                     uppercase;
   &__entry-exit{
+    letter-spacing:                  -5px;
+    .make-lg-column(6);
+    margin: 27px 0;
 
   }
 
-  &__entry-exit-d{
+  &__title{
+    letter-spacing:                   0;
+    display:                          block;
+    margin: 20px 0;
+  }
 
+  &__entry-exit-d{
+  color:                              @color-primary;
+    text-align:                       center;
   }
 }

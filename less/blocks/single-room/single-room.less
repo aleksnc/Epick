@@ -1,0 +1,39 @@
+.single-room{
+  .container();
+
+  &__header{
+
+  }
+  &__info{
+    .make-xs-column(12);
+    .make-sm-column(12);
+    .make-lg-column(6);
+    .make-xs-column-pull(0);
+    .make-lg-column-pull(6);
+  }
+
+  &__title{
+    font-size:                    (@text-size-xl)-4;
+    font-family:                  @font-family-h;
+  }
+
+  &__description{
+    font-size:                    @text-size;
+    font-family:                  @font-family-h;
+    margin: 15px 0;
+  }
+}
+
+.temp-carusel{
+  .make-xs-column(12);
+  .make-sm-column(12);
+  .make-lg-column(6);
+  .make-xs-column-push(0);
+  .make-lg-column-push(6);
+ // width:                          580px;
+ // height:                         398px;
+  position:                       relative;
+  img{
+    width:                        100%;
+  }
+}
