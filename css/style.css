@@ -4979,81 +4979,6 @@ a.thumbnail.active {
   padding: 9px;
   color: #191919;
 }
-.alert {
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-.alert h4 {
-  margin-top: 0;
-  color: inherit;
-}
-.alert .alert-link {
-  font-weight: bold;
-}
-.alert > p,
-.alert > ul {
-  margin-bottom: 0;
-}
-.alert > p + p {
-  margin-top: 5px;
-}
-.alert-dismissable,
-.alert-dismissible {
-  padding-right: 35px;
-}
-.alert-dismissable .close,
-.alert-dismissible .close {
-  position: relative;
-  top: -2px;
-  right: -21px;
-  color: inherit;
-}
-.alert-success {
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
-  color: #3c763d;
-}
-.alert-success hr {
-  border-top-color: #c9e2b3;
-}
-.alert-success .alert-link {
-  color: #2b542c;
-}
-.alert-info {
-  background-color: #d9edf7;
-  border-color: #bce8f1;
-  color: #31708f;
-}
-.alert-info hr {
-  border-top-color: #a6e1ec;
-}
-.alert-info .alert-link {
-  color: #245269;
-}
-.alert-warning {
-  background-color: #fcf8e3;
-  border-color: #faebcc;
-  color: #8a6d3b;
-}
-.alert-warning hr {
-  border-top-color: #f7e1b5;
-}
-.alert-warning .alert-link {
-  color: #66512c;
-}
-.alert-danger {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-.alert-danger hr {
-  border-top-color: #e4b9c0;
-}
-.alert-danger .alert-link {
-  color: #843534;
-}
 @-webkit-keyframes progress-bar-stripes {
   from {
     background-position: 40px 0;
@@ -6409,14 +6334,10 @@ button.close {
 .form-header:after,
 .length-stay:before,
 .length-stay:after,
-.length-stay:before,
-.length-stay:after,
 .other-rooms:before,
 .other-rooms:after,
 .other-rooms__wrapper:before,
 .other-rooms__wrapper:after,
-.page-footer:before,
-.page-footer:after,
 .page-header:before,
 .page-header:after,
 .page-header:before,
@@ -6452,10 +6373,8 @@ button.close {
 .form__step:after,
 .form-header:after,
 .length-stay:after,
-.length-stay:after,
 .other-rooms:after,
 .other-rooms__wrapper:after,
-.page-footer:after,
 .page-header:after,
 .page-header:after,
 .room-list:after,
@@ -6799,8 +6718,11 @@ button.close {
 .year {
   width: 50px;
 }
-.border-right {
+.border--right {
   border-right: solid 2px #ebebeb;
+}
+.switch--border {
+  border: solid 2px #ebebeb;
 }
 body {
   color: #191919;
@@ -6818,6 +6740,34 @@ li {
   margin: 0;
   padding: 0;
 }
+label span {
+  text-transform: uppercase;
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] + label span {
+  display: block;
+  width: 100%;
+  background-position-y: 100%;
+  cursor: pointer;
+  opacity: 0.7;
+  margin: 24px 0;
+}
+input[type="radio"]:checked + label span {
+  opacity: 1;
+}
+input[type="radio"]:checked ~ ul {
+  display: inline-block;
+  max-width: 780px;
+  width: 100%;
+  top: 140px;
+  left: -2px;
+  position: absolute;
+}
 .aparts {
   min-height: 1px;
   padding-left: 15px;
@@ -6826,8 +6776,7 @@ li {
   max-height: 337px;
   position: relative;
   text-align: center;
-  background: white;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 @media (min-width: 1200px) {
   .aparts {
@@ -6842,10 +6791,14 @@ li {
 .aparts__type {
   font-family: 'PT Serif Caption', sans-serif;
   font-size: 26px;
+  display: block;
+  background: white;
 }
 .aparts__price {
   display: block;
   font-size: 14px;
+  background: white;
+  padding: 5px 0 30px;
 }
 .btn,
 .btn--icon-calendar,
@@ -6894,6 +6847,7 @@ li {
   border-radius: 0;
   background: #0ab89d;
   border-color: #0ab89d;
+  width: 100%;
 }
 .btn--background:hover {
   background: #079b84;
@@ -6976,6 +6930,151 @@ li {
   display: block;
   margin: 10px;
 }
+.form__stend {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 1200px) {
+  .form__stend {
+    margin-left: 16.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .form__stend {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+.form__switcher {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 780px;
+}
+.form__switcher label {
+  background: #FFF;
+  margin: 0;
+  width: 100%;
+  max-width: 195px;
+  float: left;
+}
+.form__switcher li {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.form__switcher li span {
+  display: inline-block;
+  padding-top: 36px;
+  height: 92px;
+  width: 151px;
+}
+.form__switcher li input[type="radio"]:checked + label span {
+  background: url('../img/ico-OK.png') no-repeat;
+  background-position: center 80%;
+}
+.form__switch-description {
+  display: none;
+  padding: 20px 0;
+  background: white;
+  margin: 20px 0;
+}
+.form__switch-description li {
+  width: 20%;
+}
+.form__switch-description li span {
+  padding: 48px 28px 0;
+  text-transform: uppercase;
+}
+.form__switch-cursor {
+  display: block;
+  margin-top: -40px;
+  width: 100%;
+  height: 20px;
+  position: relative;
+  float: left;
+  width: 25%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.form__switch-cursor .cursor {
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+/*КНОПКИ ФОРМЫ BUTTONS FORM*/
+.hotel + label span {
+  background: url('../img/ico-apartment_House_512.png') no-repeat;
+  background-size: 50%;
+  background-position-x: center;
+  border-right: 1px solid;
+  height: 110px;
+}
+.hotel :checked + label span {
+  opacity: 0.7;
+}
+.house + label span {
+  background: url('../img/ico_family_house_512.png') no-repeat;
+  background-size: 100%;
+  background-size: 50%;
+  background-position-x: center;
+  height: 110px;
+}
+.house :checked + label span {
+  opacity: 0.7;
+}
+.area {
+  background: url('../img/Squad_rule_128.png') no-repeat;
+  background-size: auto 48%;
+  background-position-x: center;
+  padding-top: 100px;
+}
+.cursor {
+  background: url('../img/triangle.png') no-repeat;
+  background-size: cover;
+}
+.mini {
+  max-width: 394px;
+}
+/*
+
+.rooms{
+  background: url('@{img-path}Elevator_Door_128.png') no-repeat;
+  background-size: auto 70%;
+  background-position: center;
+  padding-top: 100px;
+}
+
+
+.sleeps{
+  background: url('@{img-path}King_Size_Bed_128.png') no-repeat;
+  background-size:  auto 70%;
+  background-position: center;
+  padding-top: 100px;
+}
+
+.wc{
+  background: url('@{img-path}Hotel_Bathtub__128.png') no-repeat;
+  background-size:  auto 70%;
+  background-position: center;
+  padding-top: 100px;
+}
+
+
+.wi-fi{
+  background: url('@{img-path}Wifi_Modem_128.png') no-repeat;
+  background-size:  auto 70%;
+  background-position: center;
+  padding-top: 100px;
+}
+
+*/
 .form-header {
   margin-right: auto;
   margin-left: auto;
@@ -7056,8 +7155,7 @@ li {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-right: 0;
   background: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -7260,43 +7358,15 @@ li {
   }
 }
 .page-footer {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-@media (min-width: 768px) {
-  .page-footer {
-    width: 750px;
-  }
-}
-@media (min-width: 1200px) {
-  .page-footer {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .page-footer {
-    width: 1170px;
-  }
-}
-.page-footer > .navbar-header,
-.page-footer > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-@media (min-width: 768px) {
-  .page-footer > .navbar-header,
-  .page-footer > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
-  }
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 .page-footer__adress {
   width: 200px;
@@ -7317,6 +7387,7 @@ li {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 142px;
+  margin: 0 auto;
 }
 .page-footer__contacts {
   width: 130px;
@@ -7697,6 +7768,7 @@ li {
   padding-right: 15px;
   left: 0%;
   position: relative;
+  padding: 0;
 }
 @media (min-width: 768px) {
   .temp-carusel {

@@ -41,8 +41,8 @@
             <section class="form__step step--color">
                 <span class="form__step-title" >Шаг 1</span>
                 <span class="form__step-description">Дата отдыха</span>
-                <div class="length-stay">
-                    <div class="length-stay__entry-exit border-right">
+                <div class="form__switcher mini switch--border">
+                    <div class="length-stay__entry-exit border--right">
                         <span class="length-stay__title">Дата Въезда</span>
                         <input class="length-stay__entry-exit-d day" type="number">
                         <input class="length-stay__entry-exit-d month"type="number">
@@ -59,63 +59,114 @@
             <section class="form__step">
                 <span class="form__step-title" >Шаг 2</span>
                 <span class="form__step-description">Место проживания</span>
-                <ul class="stay-type__switcher">
-                        <input type="radio" name="switch" >Отель
-                        <input type="radio" name="switch">Коттедж
-                </ul>
-                <article class="stay-type step--color">
+                <div class="form__switcher mini switch--border ">
+                    <input class="form__switcher hotel" type="radio"  id="hotel" name="switch-1" >
+                    <label for="hotel"><span>Отель</span></label>
+                    <input  class="form__switcher house" type="radio" checked id="house" name="switch-1">
+                    <label for="house"><span>Коттедж</span></label>
+                </div>
+            </section>
+
+            <section class="form__step  step--color">
                     <span class="form__step-title" >Шаг 3</span>
                     <span class="form__step-description">Тип коттеджа</span>
 
-                    <ul class="stay-type__switcher">
+                    <ul class="form__switcher switch--border">
                         <li>
-                            <input type="radio" name="switch-2" >Флагман
+                            <input type="radio" id="type_switch-1" checked name="switch-2" >
+                            <label for="type_switch-1"><span class="border--right">Флагман</span></label>
+
+                            <ul class="form__switch-description switch--border">
+                                <li class="form__switch-cursor">
+                                    <span class="cursor"></span>
+                                </li>
+                                <li>
+                                    <span class="area">Площадь 100м</span>
+                                </li>
+                                <li>
+                                    <span  class="rooms">3 Комнаты</span>
+                                </li>
+                                <li>
+                                    <span  class="sleeps">5 Спальных мест</span>
+                                </li>
+                                <li>
+                                    <span class="wc" >Раздельный санузел</span>
+                                </li>
+                                <li>
+                                    <span class="wi-fi" >Wi-Fi</span>
+                                </li>
+                            </ul>
                         </li>
                         <li>
-                            <input type="radio" name="switch-2" >Озерный
+                            <input type="radio" id="type_switch-2" name="switch-2" >
+                            <label for="type_switch-2"><span class="border--right">Озерный</span></label>
+                            <ul class="form__switch-description switch--border">
+                                <li class="form__switch-cursor">
+                                    <span class="cursor"></span>
+                                </li>
+                                <li>
+                                    <span class="area">Площадь 50м</span>
+                                </li>
+                                <li>
+                                    <span  class="rooms">2 Комнаты</span>
+                                </li>
+                                <li>
+                                    <span  class="sleeps">2 Спальных мест</span>
+                                </li>
+                                <li>
+                                    <span class="wc" >Раздельный санузел</span>
+                                </li>
+                            </ul>
                         </li>
                         <li>
-                            <input type="radio" name="switch-2" >Ольховка
+                            <input type="radio" id="type_switch-3" name="switch-2" >
+                            <label for="type_switch-3"><span class="border--right">Ольховка</span></label>
+                            <ul class="form__switch-description switch--border">
+                                <li class="form__switch-cursor">
+                                    <span class="cursor"></span>
+                                </li>
+                                <li>
+                                    <span class="area">Площадь 80м</span>
+                                </li>
+                                <li>
+                                    <span  class="rooms">2 Комнаты</span>
+                                </li>
+                                <li>
+                                    <span  class="sleeps">4 Спальных мест</span>
+                                </li>
+                                <li>
+                                    <span class="wc" >Раздельный санузел</span>
+                                </li>
+                                <li>
+                                    <span class="wi-fi" >Wi-Fi</span>
+                                </li>
+                            </ul>
                         </li>
                         <li>
-                            <input type="radio" name="switch-2" >Портовый
+                            <input type="radio" id="type_switch-4" name="switch-2" >
+                            <label for="type_switch-4"><span>Портовый</span></label>
+                            <ul class="form__switch-description switch--border">
+                                <li class="form__switch-cursor">
+                                    <span class="cursor"></span>
+                                </li>
+                                <li>
+                                    <span class="area">Площадь 90м</span>
+                                </li>
+                                <li>
+                                    <span  class="rooms">3 Комнаты</span>
+                                </li>
+                                <li>
+                                    <span  class="sleeps">6 Спальных мест</span>
+                                </li>
+                                <li>
+                                    <span class="wc" >Раздельный санузел</span>
+                                </li>
+                                <li>
+                                    <span class="wi-fi" >Wi-Fi</span>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
-
-
-                    <ul class="stay-type__switcher">
-                        <li>
-                            <input type="radio" name="switch-2" >Флагман
-                        </li>
-                        <li>
-                            <input type="radio" name="switch-2" >Озерный
-                        </li>
-                        <li>
-                            <input type="radio" name="switch-2" >Ольховка
-                        </li>
-                        <li>
-                            <input type="radio" name="switch-2" >Портовый
-                        </li>
-                    </ul>
-
-                    <ul class="stay-type__description">
-                        <li>
-                            <input type="radio" name="switch-3" >Площадь 100м
-                        </li>
-                        <li>
-                            <input type="radio" name="switch-3" >3 Комнаты
-                        </li>
-                        <li>
-                            <input type="radio" name="switch-3" >5 Спальных мест
-                        </li>
-                        <li>
-                            <input type="radio" name="switch-3" >Раздельный санузел
-                        </li>
-                        <li>
-                            <input type="radio" name="switch-3" >Wi-Fi
-                        </li>
-                    </ul>
-                </article>
             </section>
             <section class="form__step">
                 <span class="form__step-title" >Шаг 4</span>
@@ -132,7 +183,9 @@
                             о забронированном номере.</span>
                 </div>
             </section>
-            <input type="button" class="btn btn--background" value="Забронировать">
+            <div class="form__stend">
+                <input type="button" class="btn btn--background" value="Забронировать">
+            </div>
         </form>
     <footer class="page-footer">
     <div class="page-footer__adress">

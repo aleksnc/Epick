@@ -9,17 +9,176 @@
   }
 
   &__step-title{
-    text-transform:       uppercase;
-    font-size:            @text-size-sm;
-    color:                @gray;
-    display:              block;
+    text-transform:             uppercase;
+    font-size:                  @text-size-sm;
+    color:                      @gray;
+    display:                    block;
   }
 
   &__step-description{
-    font-size:            (@text-size-xl)-4;
-    font-family:          @font-family-h;
-    display:              block;
+    font-size:                  (@text-size-xl)-4;
+  font-family:                  @font-family-h;
+    display:                    block;
     margin: 10px;
   }
+
+  &__stend{
+    .make-lg-column-offset(2);
+    .make-lg-column(8);
+  }
+
+  &__switcher{
+    display:                      inline-block;
+    position:                     relative;
+    width:                        100%;
+    max-width:                    780px;
+    label {
+      background:                 #FFF;
+      margin:                     0;
+      width:                      100%;
+      max-width:                  195px;
+      float:                      left;
+    }
+    li{
+      display:                    inline-block;
+      float:                      left;
+      width:                      25%;
+      text-align:                 center;
+
+      span {
+        display:                  inline-block;
+        padding-top:              36px;
+        height:                   92px;
+        width:                    151px;
+      }
+
+      input[type="radio"]:checked + label span{
+        background:               url('@{img-path}ico-OK.png') no-repeat;
+        background-position:      center 80%;
+      }
+    }
+  }
+
+  &__switch-description{
+    display:                      none;
+    padding:                      20px 0;
+    background:                   white;
+    margin:                       20px 0;
+    li{
+      width:                      20%;
+      span{
+        padding:                  48px 28px 0;
+       text-transform:            uppercase;
+      }
+    }
+  }
+
+  &__switch-cursor{
+    display:                      block;
+    margin-top:                   -40px;
+    width:                        100%;
+    height:                       20px;
+    .make-xs-column(3);
+
+    .cursor{
+      padding:                    0;
+      display:                    inline-block;
+      position:                   relative;
+      width:                      20px;
+      height:                     20px;
+    }
+  }
 }
+
+
+
+
+/*КНОПКИ ФОРМЫ BUTTONS FORM*/
+
+
+.hotel{
+
+  + label span {
+    background: url('@{img-path}ico-apartment_House_512.png') no-repeat;
+    background-size: 50%;
+    background-position-x: center;
+    border-right: 1px solid;
+    height: 110px;
+  }
+
+  :checked + label span{
+    opacity: 0.7;
+  }
+}
+
+.house{
+
+  + label span {
+    background: url('@{img-path}ico_family_house_512.png') no-repeat;
+    background-size: 100%;
+    background-size: 50%;
+    background-position-x: center;
+    height: 110px;
+  }
+
+  :checked + label span{
+    opacity: 0.7;
+  }
+
+}
+
+
+
+
+.area{
+  background: url('@{img-path}Squad_rule_128.png') no-repeat;
+  background-size: auto 48%;
+  background-position-x: center;
+  padding-top: 100px;
+}
+
+
+.cursor{
+  background: url('@{img-path}triangle.png') no-repeat;
+  background-size: cover;
+}
+
+
+.mini{
+  max-width: 394px;
+}
+
+/*
+
+.rooms{
+  background: url('@{img-path}Elevator_Door_128.png') no-repeat;
+  background-size: auto 70%;
+  background-position: center;
+  padding-top: 100px;
+}
+
+
+.sleeps{
+  background: url('@{img-path}King_Size_Bed_128.png') no-repeat;
+  background-size:  auto 70%;
+  background-position: center;
+  padding-top: 100px;
+}
+
+.wc{
+  background: url('@{img-path}Hotel_Bathtub__128.png') no-repeat;
+  background-size:  auto 70%;
+  background-position: center;
+  padding-top: 100px;
+}
+
+
+.wi-fi{
+  background: url('@{img-path}Wifi_Modem_128.png') no-repeat;
+  background-size:  auto 70%;
+  background-position: center;
+  padding-top: 100px;
+}
+
+*/
 
