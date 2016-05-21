@@ -1,0 +1,55 @@
+body{
+  color:                    @gray-dark;
+  font-family:              @font-family;
+}
+
+a, button, a:hover, a:active, a:focus{
+  color:                    inherit;
+  font-family:              inherit;
+  text-decoration:          none;
+}
+
+
+ul, li{
+  list-style-type:          none;
+  margin:                   0;
+  padding:                  0;
+
+}
+
+label span{
+  text-transform: uppercase;
+}
+
+input[type="radio"] {
+  display:none;
+}
+
+input[type="radio"] {
+  display:none;
+}
+
+
+input[type="radio"] + label span {
+  display:block;
+  width:100%;
+  background-position-y: 100%;
+  cursor: pointer;
+  opacity: 0.7;
+  margin: 24px 0;
+
+
+}
+
+input[type="radio"]:checked + label span{
+   opacity: 1;
+ }
+
+input[type="radio"]:checked  ~ ul{
+  display: inline-block;
+  max-width: 780px;
+  width: 100%;
+  top: 140px;
+  left: -2px;
+  position: absolute;
+}

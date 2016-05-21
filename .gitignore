@@ -1,3 +1,5 @@
 sketch/
 .idea/
+old/
+node_modules/
 prepros.cfg

@@ -1,0 +1,72 @@
+.room-list{
+  .container();
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+
+  &__room{
+    float: left;
+
+  }
+
+  &__title{
+    font-size:  @text-size-xl;
+    font-family: @font-family-h;
+  }
+
+  &__room-info{
+    .row();
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    background: @gray-wight;
+  }
+
+  &__room-img{
+    .make-lg-column(6);
+    .pull-right();
+    .make-xs-column(12);
+    padding: 0;
+  }
+  &__room-type{
+    .make-lg-column(6);
+    .make-xs-column(12);
+    font-family: @font-family-h;
+    font-size: (@text-size-xl)-4;
+    margin: 15px 0;
+
+  }
+  &__room-price{
+    display: block;
+    font-family: @font-family;
+    font-size: @text-size-sm;
+    font-weight: 600;
+  }
+
+  &__room-description{
+    .make-md-column-offset(4);
+    .make-sm-column-offset(3);
+    .make-lg-column-offset(1);
+    .make-xs-column(12);
+    .make-sm-column(7);
+    .make-lg-column(4);
+    display: block;
+    max-width: 388px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  &__btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin-top: 30px;
+  }
+  &__room-about{
+    display: block;
+  }
+
+}

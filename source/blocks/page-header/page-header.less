@@ -1,0 +1,36 @@
+.page-header{
+  color: @gray-dark;
+  &__contacts{
+    font-size: @text-size-sm;
+    font-family: @font-family;
+    & a{
+      display: block;
+      font-size: @text-size-l;
+      font-family: @font-family-h;
+
+    }
+  }
+}
+
+
+
+.page-header{
+  .row();
+  .container();
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+  &__contacts{
+    .make-lg-column(3);
+    .visible-lg-block();
+    font-size: @text-size-sm;
+    font-family: @font-family;
+  }
+
+  &__wrapper-logo{
+    .make-xs-column(8);
+    .make-xs-column-offset(2);
+    .make-lg-column(2);
+    .make-lg-column-offset(0);
+  }
+}
