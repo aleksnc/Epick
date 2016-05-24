@@ -25,8 +25,11 @@
       <div class="single-room__header">
         <div class="type-price"><span class="type-price__type">Эконом</span><span class="type-price__price">от<span class="color-attention">4000 руб./сутки</span></span></div>
       </div>
-      <div class="owl-carusel temp-carusel">
-        <div><img src="img/rooms/011.jpg"></div>
+      <div class="single-room__carusel">
+        <div id="singleOvl" class="owl-carousel">
+          <div><img src="img/rooms/011.jpg"></div>
+          <div><img src="img/rooms/econom-room.jpg"></div>
+        </div>
       </div>
       <article class="single-room__info"><span class="single-room__title">О номере</span>
         <p class="single-room__description">
@@ -53,9 +56,11 @@
     </section>
     <div class="other-rooms__wrapper">
       <div class="other-rooms">
-        <div class="aparts"><img src="img/rooms/standard-room.jpg" class="aparts__img"><span class="aparts__type">Стандарт<span class="aparts__price">от<span class="color-attention">4000</span>руб./сутки</span></span></div>
-        <div class="aparts"><img src="img/rooms/standard-plus-room.jpg" class="aparts__img img-right"><span class="aparts__type">Стандарт+<span class="aparts__price">от<span class="color-attention">4000</span>руб./сутки</span></span></div>
-        <div class="aparts"><img src="img/rooms/lux-room.jpg" class="aparts__img img-right"><span class="aparts__type">Люкс<span class="aparts__price">от<span class="color-attention">4000</span>руб./сутки</span></span></div>
+        <div id="otherOvl" class="owl-carousel">
+          <div class="aparts"><img src="img/rooms/standard-room.jpg" class="aparts__img"><span class="aparts__type">Стандарт<span class="aparts__price">от<span class="color-attention">4000</span>руб./сутки</span></span></div>
+          <div class="aparts"><img src="img/rooms/standard-plus-room.jpg" class="aparts__img img-right"><span class="aparts__type">Стандарт+<span class="aparts__price">от<span class="color-attention">4000</span>руб./сутки</span></span></div>
+          <div class="aparts"><img src="img/rooms/lux-room.jpg" class="aparts__img img-right"><span class="aparts__type">Люкс<span class="aparts__price">от<span class="color-attention">4000</span>руб./сутки</span></span></div>
+        </div>
       </div>
     </div>
     <footer class="page-footer__wrapper">
@@ -68,5 +73,8 @@
         </div>
       </div>
     </footer>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
