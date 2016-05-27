@@ -1,15 +1,23 @@
 .single-room{
-  .container();
+  display:                       flex;
+  flex-wrap:                     wrap;
+  max-width:                     1200px;
+  justify-content:               space-between;
+  margin:                        0 auto;
 
   &__header{
-
+    width:                        100%;
+    margin:                       20px 0 40px;
+    @media ( min-width: 1200px) {
+      order:                        -2;
+    }
   }
   &__info{
-    .make-xs-column(12);
-    .make-sm-column(12);
-    .make-lg-column(6);
-    .make-xs-column-pull(0);
-    .make-lg-column-pull(6);
+    padding:                      0 20px;
+    max-width:                    600px;
+    @media ( min-width: 1200px) {
+      order:                        -1;
+    }
   }
 
   &__title{
@@ -21,16 +29,33 @@
     font-size:                    @text-size;
     font-family:                  @font-family-h;
     margin: 15px 0;
+    :before{
+      content: " ";
+      width:                       10px;
+      height:                      10px;
+      display:                     inline-block;
+      border-top:                  2px solid @color-second;
+      border-right:                2px solid @color-second;
+      transform:                   rotate(45deg);
+      margin:                      4px 4px 0 0;
+    }
+  }
+
+  &__description--list{
+    column-count:                  1;
+
+    @media ( min-width: 768px) {
+      column-count:                2;
+    }
   }
 
   &__carusel{
-    .make-xs-column(12);
-    .make-sm-column(12);
-    .make-lg-column(6);
-    .make-xs-column-push(0);
-    .make-lg-column-push(6);
     position:                       relative;
     padding: 0;
-
+    width: 100%;
+    @media ( min-width: 1200px) {
+      max-width:                    600px;
+    }
   }
 }
+
