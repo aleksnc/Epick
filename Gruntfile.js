@@ -84,19 +84,17 @@ module.exports = function(grunt){
 
 
   grunt.loadNpmTasks('grunt-contrib-jade');
- // grunt.loadNpmTasks('grunt-contrib-stylus');
+  //grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  //grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-browser-sync');
 
   grunt.registerTask('default', [
     'copy', 
     'jade',
-    //'stylus',
+   // 'browserify',
     'less',
-    //'imagemin',
     'browserSync',
     'watch'
   ]);

@@ -1,8 +1,10 @@
 .page-header{
   color:                                               @gray-dark;
   margin-top:                                          17px;
+  border-bottom:                                       1px solid @gray-light;
   &__inner{
     display:                                           flex;
+    flex-wrap:                                         wrap;
     align-items:                                       center;
     justify-content:                                   space-between;
     width:                                             100%;
@@ -14,7 +16,7 @@
     font-size:                                         @text-size-sm;
     font-family:                                       @font-family;
     @media (min-width: 1200px) {
-      display:                    block;
+      display:                                         block;
     }
 
     & a{

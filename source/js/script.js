@@ -21,12 +21,19 @@ $( document ).ready(function(){
          }
       }
    });
- /*  $(".fancybox").fancybox();
-
-   $("#galery a").on("click", function(event){
-      event.preventDefault();
-      $(this).attr("href");
-      $("#gallery-img img").attr('src', $(this).attr("href"));
-
-   });*/
 });
+
+function burgerToggl(){
+$('#nav-display').toggleClass('nav-display--show');
+}
+
+function restSwitch_off(){
+   $('#restTop_1').toggleClass('rest-tabs--switch-width', false);
+   $('#restBottom_1').toggleClass('rest-tabs--switch-width', false);
+}
+
+
+function restSwitch_on(){
+   $('#restTop_1').toggleClass('rest-tabs--switch-width', true);
+   $('#restBottom_1').toggleClass('rest-tabs--switch-width', true);
+}
