@@ -7,14 +7,16 @@ section.rest-tabs
     .rest-tabs__top#restTop_1
         .rest-tabs__top-item
             .rest-tabs__top-item-inner
-                span.rest-tabs__top-header Семейный отдых на  берегу Финского залива
+                p.rest-tabs__top-header
+                    span Семейный отдых на  берегу Финского залива
                 p.rest-tabs__top-description
                     span.
                         Green Valley - это современная база отдыха
                         в курортном районе для здорового отдыха всей семёй.
         .rest-tabs__top-item.rest-tabs-item--hidden
             .rest-tabs__top-item-inner
-                span.rest-tabs__top-header Корпоративный отдых на  берегу Финского залива
+                p.rest-tabs__top-header
+                    span Корпоративный отдых на  берегу Финского залива
                 p.rest-tabs__top-description
                     span.
                         Green Valley - это современная база отдыха
@@ -27,25 +29,7 @@ section.rest-tabs
                     Плавайте в бассейне, играйте в волейбол, футбол и другие игры.
                     Устройте семейный пикник с шашлыками или снимите напряжение в бане или спа.
                     Почувствуйте отдых!
-                ul.rest-tabs__services
-                    li.rest-tabs__service(style="background: url('img/pool.png') no-repeat")
-                        a(href="#") бассейн
-
-                    li.rest-tabs__service(style="background: url('img/footbal.png') no-repeat")
-                        a(href="#") спортивная площадка
-
-                    li.rest-tabs__service(style="background: url('img/billiard.png') no-repeat")
-                        a(href="#") бильярд
-
-                    li.rest-tabs__service(style="background: url('img/spa.png') no-repeat")
-                        a(href="#") спа
-
-                    li.rest-tabs__service(style="background: url('img/bani.png') no-repeat")
-                        a(href="#") бани
-
-                    li.rest-tabs__service(style="background: url('img/child.png') no-repeat")
-                        a(href="#") анимация
-
+                +servicelist("rest-tabs__services","rest-tabs__service")
         .rest-tabs__bottom-item.rest-tabs-item--hidden
             .rest-tabs__bottom-item-inner
                 p.rest-tabs__bottom-title Корпоративный отдых
@@ -53,22 +37,4 @@ section.rest-tabs
                     Плавайте в бассейне, играйте в волейбол, футбол и другие игры.
                     Устройте семейный пикник с шашлыками или снимите напряжениев бане или спа.
                     Почувствуйте отдых!
-                ul.rest-tabs__services
-                    li.rest-tabs__service(style="background: url('img/pool.png') no-repeat")
-                        a(href="#") бассейн
-
-                    li.rest-tabs__service(style="background: url('img/footbal.png') no-repeat")
-                        a(href="#") спортивная площадка
-
-                    li.rest-tabs__service(style="background: url('img/billiard.png') no-repeat")
-                        a(href="#") бильярд
-
-                    li.rest-tabs__service(style="background: url('img/spa.png') no-repeat")
-                        a(href="#") спа
-
-                    li.rest-tabs__service(style="background: url('img/bani.png') no-repeat")
-                        a(href="#") бани
-
-                    li.rest-tabs__service(style="background: url('img/child.png') no-repeat")
-                        a(href="#") анимация
-
+                +servicelist("rest-tabs__services","rest-tabs__service")

@@ -1,27 +1,29 @@
-$( document ).ready(function(){
 
-   $("#singleOvl").owlCarousel({
-      items: 1,
-      loop: true,
-      center: true
+$( document ).ready(function(){
+   $('#silck_for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      asNavFor: '#silck_nav'
+   });
+   $('#silck_nav').slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      asNavFor: '#silck_for',
+      dots: true,
+      centerMode: true,
+      arrows: false,
+      focusOnSelect: true
+
    });
 
-   $("#otherOvl").owlCarousel({
-      items: 3,
-      loop: true,
-      responsive:{ //Адаптация в зависимости от разрешения экрана
-         0:{
-            items: 1,
-         },
-         768:{
-            items:2
-         },
-         1200:{
-            items:3
-         }
-      }
+   $('#review').slick({
+      slidesToShow: 1,
+      arrows: false
+
    });
 });
+
 
 function burgerToggl(){
 $('#nav-display').toggleClass('nav-display--show');
