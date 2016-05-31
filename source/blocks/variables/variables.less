@@ -35,8 +35,16 @@
 .title{
   font-family:                        @font-family-h;
   font-weight:                        500;
+  font-size:                          (@text-size-xl)-4;
   margin:                             0;
   display:                            block;
+  margin:                             0;
+  padding:                            0;
+  text-align:                         center;
+
+  @media (min-width: 468px) {
+    font-size:                        @text-size-xl;
+  }
 }
 
 

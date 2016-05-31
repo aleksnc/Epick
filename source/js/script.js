@@ -6,11 +6,11 @@ $( document ).ready(function(){
       arrows: false,
       asNavFor: '#silck_nav'
    });
+
    $('#silck_nav').slick({
       slidesToShow: 5,
       slidesToScroll: 1,
       asNavFor: '#silck_for',
-      dots: true,
       centerMode: true,
       arrows: false,
       focusOnSelect: true
@@ -18,10 +18,42 @@ $( document ).ready(function(){
    });
 
    $('#review').slick({
-      slidesToShow: 1,
-      arrows: false
-
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      arrows: true,
+      responsive: [
+         {
+            breakpoint: 1200,
+            settings: {
+               slidesToShow: 2,
+               slidesToScroll: 2,
+               verticalSwiping: true,
+               vertical: true,
+               infinite: true,
+               arrows: false,
+               dots: true
+            }
+         },
+         {
+            breakpoint: 768,
+            settings: {
+               slidesToShow: 1,
+               slidesToScroll: 1,
+               infinite: true,
+               arrows: false,
+               dots: true
+            }
+         }
+      ]
    });
+
+   $('#offersSlick').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: true
+   });
+
 });
 
 
