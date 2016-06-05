@@ -1,0 +1,35 @@
+form.form
+    section.form__step
+      a(name="date")
+      .form__step-item
+        span.form__step-description Шаг 1
+        span.form__step-title Дата отдыха
+        .form__switcher.form__switcher--bg-white
+          include ../length-stay/length-stay
+    section.form__step.form__step--color
+      .form__step-item
+        span.form__step-description Шаг 2
+        span.form__step-title Место проживания
+        .form__switcher
+          include ../type-hotel/type-hotel.jade
+    section#step-3.form__step.form__step--height-480
+      .form__step-item.form__step-item--full-width
+        span.form__step-description Шаг 3
+        span.form__step-title Тип коттеджа
+          .form__switcher.form__switcher--border-none
+            include ../switch-rooms/switch-rooms
+    section.form__step.form__step--color
+      .form__step-item.form__step-item--full-width
+        span.form__step-description Шаг 4
+        span.form__step-title Персональная информация
+        .form__switcher.form__switcher--border-white
+          include ../your/your.jade
+    section.form__step.form__step--padding-bottom
+      .form__step-item.form__step-item--full-width
+        span.form__step-description Шаг 5
+        span.form__step-title Способ оплаты
+        .form__switcher.form__switcher--border-none
+          include ../payment/payment
+
+    .form__stend
+      input.btn.btn--background( href="javascript:void(0);" type='button' value='Забронировать')

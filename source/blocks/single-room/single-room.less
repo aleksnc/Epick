@@ -1,62 +1,126 @@
 .single-room{
-  display:                       flex;
-  flex-wrap:                     wrap;
-  max-width:                     1200px;
-  width:                         100%;
-  justify-content:               space-between;
-  margin:                        0 auto;
+  display:                         flex;
+  flex-wrap:                       wrap;
+  max-width:                       1200px;
+  width:                           100%;
+  justify-content:                 space-between;
+  margin:                          0 auto;
 
   &__header{
-    width:                        100%;
-    margin:                       20px 0 40px;
+    width:                          100%;
+    margin:                         20px 0 40px;
     @media ( min-width: 1200px) {
       order:                        -2;
     }
   }
   &__info{
-    width:                        100%;
-    padding:                      0 20px;
-    max-width:                    600px;
+    width:                          100%;
+    padding:                        0 20px;
+    max-width:                      600px;
     @media ( min-width: 1200px) {
       order:                        -1;
     }
   }
 
   &__title{
-    font-size:                    (@text-size-xl)-4;
-    font-family:                  @font-family-h;
+    font-size:                      (@text-size-xl)-4;
+    font-family:                    @font-family-h;
   }
 
   &__description{
-    font-size:                    1em;
-    font-family:                  @font-family-h;
+    font-size:                      1em;
+    font-family:                    @font-family-h;
     margin: 15px 0;
     :before{
       content: " ";
-      width:                       10px;
-      height:                      10px;
-      display:                     inline-block;
-      border-top:                  2px solid @color-second;
-      border-right:                2px solid @color-second;
-      transform:                   rotate(45deg);
-      margin:                      4px 4px 0 0;
+      width:                        10px;
+      height:                       10px;
+      display:                      inline-block;
+      border-top:                   2px solid @color-second;
+      border-right:                 2px solid @color-second;
+      transform:                    rotate(45deg);
+      margin:                       4px 4px 0 0;
     }
   }
 
   &__description--list{
-    column-count:                  1;
+    column-count:                   1;
 
     @media ( min-width: 768px) {
-      column-count:                2;
+      column-count:                 2;
     }
+  }
+
+  &__magnifier{
+    position:                       absolute;
+    z-index:                        3;
+    right:                          20px;
+    top:                            5px;
+    font-size:                      0;
+    background-image:               url('../img/ico-ZOOM.png');
+    background-repeat:              no-repeat;
+    background-position:            center;
+    display:                        none;
+    width:                          22px;
+    height:                         22px;
+    padding:                        30px;
+    @media ( min-width: 1200px){
+      display:                      block;
+    }
+  }
+
+  &__slick{
+    width:                          100%;
+    max-width:                      580px;
+    height: 400px;
   }
 
   &__carusel{
     position:                       relative;
-    padding: 0;
-    width: 100%;
-    @media ( min-width: 1200px) {
+    padding:                        0;
+    width:                          100%;
+
+    @media ( min-width: 1200px){
       max-width:                    600px;
+    }
+
+    .slick-slide{
+      outline:                      none;
+
+      img{
+        height:                     100%;
+      }
+    }
+
+    .slick-list{
+      height: 400px;
+    }
+
+    .slick-prev, .slick-next{
+      left:                         45px;
+      width:                        0;
+      height:                       0;
+      transform:                    rotate(-45deg);
+      z-index: 3;
+
+      @media ( min-width: 1200px){
+        border-left:                  2px solid #fff;
+        border-top:                   2px solid #fff;
+        width:                        30px;
+        height:                       30px;
+      }
+    }
+
+    .slick-next{
+      left:                         inherit;
+      right:                        45px;
+      transform:                    rotate(135deg);
+    }
+
+
+    .slick-prev:before, .slick-next:before{
+      content:                      " ";
+      display:                      none;
     }
   }
 }

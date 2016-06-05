@@ -1,5 +1,28 @@
 module.exports = function(grunt){
   grunt.initConfig({
+    image: {
+      static: {
+        options: {
+          pngquant: true,
+          optipng: false,
+          zopflipng: true,
+          advpng: true,
+          jpegRecompress: false,
+          jpegoptim: true,
+          mozjpeg: true,
+          gifsicle: true,
+          svgo: true
+        }
+      },
+      dynamic: {
+        files: [{
+          expand: true,
+          cwd: 'source/',
+          src: ['**/*.{png,jpg,gif,svg}'],
+          dest: 'dest/'
+        }]
+      }
+    },
     jade: {
       compile: {
         files: [{
@@ -42,6 +65,16 @@ module.exports = function(grunt){
         }]
       },
     },
+    cmq: {
+      options: {
+        log: false
+      },
+      your_target: {
+        files: {
+          'tmp': ['dest/css/*.css']
+        }
+      }
+    },
     watch: {
       js: {
         files: ['source/js/**/*.js'],
@@ -59,10 +92,10 @@ module.exports = function(grunt){
         files: ['source/**/*.less'],
         tasks: ['less'],
       },
-      //imagemin: {
-      //  files: ['source/**/*.{png,jpg,gif}'],
-      //  tasks: ['imagemin'],
-      //}
+      imagemin: {
+        files: ['source/**/*.{png,jpg,gif}'],
+        tasks: ['image'],
+      }
     },
 
     browserSync: {
@@ -80,16 +113,16 @@ module.exports = function(grunt){
       }
     }
   });
-
-
-
+  grunt.loadNpmTasks('grunt-combine-media-queries');
+  grunt.loadNpmTasks('grunt-image');
   grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-browser-sync');
-
   grunt.registerTask('default', [
+    'cmq',
+    'image',
     'copy',
     'jade',
     'less',

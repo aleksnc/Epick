@@ -1,180 +1,115 @@
-.form{
+.form {
+  background:                    @gray-wight;
 
-  &__step{
-    text-align: center;
-    padding: 50px 0 100px;
+  &__step {
+    text-align:                   center;
+    padding:                      40px 0 30px;
 
+    &--color {
+      background:                 #fff;
+    }
+    &--height-480{
+
+      @media (min-width: 768px) {
+        height:                   480px;
+      }
+    }
+    &--display-none {
+      display:                     none;
+    }
+
+    &--padding-bottom{
+      padding-bottom:              0;
+    }
   }
 
-  &__step-title{
-    text-transform:             uppercase;
-    font-size:                  @text-size-sm;
-    color:                      @gray;
-    display:                    block;
+  &__step-item {
+    max-width:                    400px;
+    margin:                       0 auto;
+    padding:                      0 20px;
+
+    &--full-width{
+      max-width:                  780px;
+      padding:                    0;
+    }
   }
 
-  &__step-description{
-    font-size:                    (@text-size-xl)-4;
-    font-family:                  @font-family-h;
+  &__step-title {
+    &:extend(.title);
+  }
+
+  &__step-description {
+    text-transform:               uppercase;
+    color:                        @gray;
     display:                      block;
-    margin: 10px;
+  }
+
+  &__switcher {
+    margin:                       30px auto;
+    display:                      flex;
+    flex-direction:               column;
+    justify-content:              space-between;
+    width:                        100%;
+    max-width:                    780px;
+    border:                       solid 2px;
+    border-color:                 @gray-wight;
+    position:                     relative;
+    font-size:                    @text-size-sm;
+    text-transform:               uppercase;
+    font-family:                  @font-family;
+
+    &--flex-row {
+      flex-direction:             row;
+    }
+
+    &--border-none{
+      border-color:               @gray-wight;
+    }
+
+    @media (min-width: 320px) {
+
+      &--border-white {
+        border-color:             #fff;
+      }
+    }
+
+    @media (min-width: 768px) {
+      flex-direction:             row;
+
+      &--border-white {
+        border-color:             #fff;
+      }
+
+      &--border-none{
+        border-color:             @gray-wight;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      border-color:               @gray-light;
+
+      &--border-white {
+        border-color:             #fff;
+      }
+
+      &--border-none{
+        border-color:             @gray-wight;
+      }
+
+      &--bg-white {
+        background:               white;
+      }
+    }
   }
 
   &__stend{
-  }
-
-  &__switcher{
-    display:                      inline-block;
-    position:                     relative;
-    width:                        100%;
+    padding:                      50px 20px 80px;
+    background:                   @gray-wight;
     max-width:                    780px;
-    label {
-      background:                 #FFF;
-      margin:                     0;
-      width:                      100%;
-      max-width:                  195px;
-      float:                      left;
-    }
-    li{
-      display:                    inline-block;
-      float:                      left;
-      width:                      25%;
-      text-align:                 center;
+    margin:                       0 auto;
 
-      span {
-        display:                  inline-block;
-        padding-top:              36px;
-        height:                   92px;
-        width:                    151px;
-      }
-
-      input[type="radio"]:checked + label span{
-        background:               url('@{img-path}ico-OK.png') no-repeat;
-        background-position:      center 80%;
-      }
-    }
-  }
-
-  &__switch-description{
-    display:                      none;
-    padding:                      20px 0;
-    background:                   white;
-    margin:                       20px 0;
-    li{
-      width:                      20%;
-      span{
-        padding:                  48px 28px 0;
-       text-transform:            uppercase;
-      }
-    }
-  }
-
-  &__switch-cursor{
-    display:                      block;
-    margin-top:                   -40px;
-    width:                        100%;
-    height:                       20px;
-    .make-xs-column(3);
-
-    .cursor{
-      padding:                    0;
-      display:                    inline-block;
-      position:                   relative;
-      width:                      20px;
-      height:                     20px;
+    @media (min-width: 768px) {
+      padding:                    50px 0 80px;
     }
   }
 }
-
-
-
-
-/*КНОПКИ ФОРМЫ BUTTONS FORM*/
-
-
-.hotel{
-
-  + label span {
-    background: url('@{img-path}ico-apartment_House_512.png') no-repeat;
-    background-size: 50%;
-    background-position-x: center;
-    border-right: 1px solid;
-    height: 110px;
-  }
-
-  :checked + label span{
-    opacity: 0.7;
-  }
-}
-
-.house{
-
-  + label span {
-    background: url('@{img-path}ico_family_house_512.png') no-repeat;
-    background-size: 100%;
-    background-size: 50%;
-    background-position-x: center;
-    height: 110px;
-  }
-
-  :checked + label span{
-    opacity: 0.7;
-  }
-
-}
-
-
-
-
-.area{
-  background: url('@{img-path}Squad_rule_128.png') no-repeat;
-  background-size: auto 48%;
-  background-position-x: center;
-  padding-top: 100px;
-}
-
-
-.cursor{
-  background: url('@{img-path}triangle.png') no-repeat;
-  background-size: cover;
-}
-
-
-.mini{
-  max-width: 394px;
-}
-
-/*
-
-.rooms{
-  background: url('@{img-path}Elevator_Door_128.png') no-repeat;
-  background-size: auto 70%;
-  background-position: center;
-  padding-top: 100px;
-}
-
-
-.sleeps{
-  background: url('@{img-path}King_Size_Bed_128.png') no-repeat;
-  background-size:  auto 70%;
-  background-position: center;
-  padding-top: 100px;
-}
-
-.wc{
-  background: url('@{img-path}Hotel_Bathtub__128.png') no-repeat;
-  background-size:  auto 70%;
-  background-position: center;
-  padding-top: 100px;
-}
-
-
-.wi-fi{
-  background: url('@{img-path}Wifi_Modem_128.png') no-repeat;
-  background-size:  auto 70%;
-  background-position: center;
-  padding-top: 100px;
-}
-
-*/
-

@@ -1,0 +1,103 @@
+form.form
+    section.form__step.form__step--color
+      .form__step-item
+        span.form__step-description Шаг 1
+        span.form__step-title Дата отдыха
+        .form__switcher
+          include ../length-stay/length-stay.jade
+    section.form__step.form__step--flex
+      .form__step-item
+        span.form__step-description Шаг 2
+        span.form__step-title Место проживания
+        .form__switcher.form__switcher--flex-row
+          input#hotel.form__switcher.hotel(type='radio', name='switch-1')
+          label(for='hotel')
+            span Отель
+          input#house.form__switcher.house(type='radio', checked='', name='switch-1')
+          label(for='house')
+            span Коттедж
+    section.form__step.form__step--color
+      span.form__step-description Шаг 3
+      span.form__step-title Тип коттеджа
+      ul.form__switcher.form__switcher--bg-white
+        li.form__switcher-list
+          input#type_switch-1(type='radio', checked='', name='switch-2')
+          label(for='type_switch-1')
+            span.border--right Флагман
+          ul.form__switch-description.switch--border
+            li.form__switch-cursor
+
+            li.form__switch-description-list
+              span.area Площадь 100м
+            li.form__switch-description-list
+              span.rooms 3 Комнаты
+            li.form__switch-description-list
+              span.sleeps 5 Спальных мест
+            li.form__switch-description-list
+              span.wc Раздельный санузел
+            li.form__switch-description-list
+              span.wi-fi Wi-Fi
+        li.form__switcher-list
+          input#type_switch-2(type='radio', name='switch-2')
+          label(for='type_switch-2')
+            span.border--right Озерный
+          ul.form__switch-description.switch--border
+            li.form__switch-cursor
+
+            li.form__switch-description-list
+              span.area Площадь 50м
+            li.form__switch-description-list
+              span.rooms 2 Комнаты
+            li.form__switch-description-list
+              span.sleeps 2 Спальных мест
+            li.form__switch-description-list
+              span.wc Раздельный санузел
+        li.form__switcher-list
+          input#type_switch-3(type='radio', name='switch-2')
+          label(for='type_switch-3')
+            span.border--right Ольховка
+          ul.form__switch-description.switch--border
+            li.form__switch-cursor
+
+            li.form__switch-description-list
+              span.area Площадь 80м
+            li.form__switch-description-list
+              span.rooms 2 Комнаты
+            li.form__switch-description-list
+              span.sleeps 4 Спальных мест
+            li.form__switch-description-list
+              span.wc Раздельный санузел
+            li.form__switch-description-list
+              span.wi-fi Wi-Fi
+        li.form__switcher-list
+          input#type_switch-4(type='radio', name='switch-2')
+          label(for='type_switch-4')
+            span Портовый
+          ul.form__switch-description.switch--border
+            li.form__switch-cursor
+
+            li.form__switch-description-list
+              span.area Площадь 90м
+            li.form__switch-description-list
+              span.rooms 3 Комнаты
+            li.form__switch-description-list
+              span.sleeps 6 Спальных мест
+            li.form__switch-description-list
+              span.wc Раздельный санузел
+            li.form__switch-description-list
+              span.wi-fi Wi-Fi
+    //section.form__step
+    //  span.form__step-title Шаг 4
+    //  span.form__step-description Персональная информация
+    //  input.your-name(type='text')
+    //  input.your-name(type='text')
+    //  .your-contact
+    //    input(type='tel')
+    //    span.your-contact__descrption Мы свяжемся с вами в случае необходимости.
+    //  .your-contact
+    //    input(type='email')
+    //    span.your-contact__descrption
+    //      | На этот адрес мы вышлем вам подтверждение
+    //      | о забронированном номере.
+    //.form__stend
+    //  input.btn.btn--background(type='button', value='Забронировать')

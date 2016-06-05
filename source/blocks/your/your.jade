@@ -1,0 +1,13 @@
+.your
+    .your__contact
+        input#your_name.your__info(type='text' placeholder='ИМЯ' onkeyup="valid_focus(event)")
+    .your__contact
+        input#your_lname.your__info(type='text' placeholder='ФАМИЛИЯ' onkeyup="valid_focus(event)" )
+    .your__contact
+        input#your_number.your__info(type='text' placeholder='номер телефона' onkeyup="valid_focus(event)" maxlength="18")
+        span.your__contact-descrption Мы свяжемся с вами в случае необходимости.
+    .your__contact
+        input#your_email.your__info(type='email' placeholder='E-MAIL' onkeyup="valid_focus(event)")
+        span.your__contact-descrption
+            | На этот адрес мы вышлем вам подтверждение
+            | о забронированном номере.

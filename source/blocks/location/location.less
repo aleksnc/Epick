@@ -9,17 +9,46 @@
   }
 
   &__to-get-on{
+    display:                      flex;
+    flex-direction:               column;
+    max-width:                    900px;
+    width:                        100%;
+    margin:                       40px auto;
+    
+    @media (min-width: 1200px) {
+      flex-direction:             row;
+      justify-content:            space-around;
+    }
+  }
+
+  &__transport-ico{
+    display: block;
+    margin: 0 auto;
+    background:                         url('@{img-path}our-location__bus-icon.png') no-repeat;
+    width: 58px;
+    height: 28px;
+
+    &--train{
+      background:                       url('@{img-path}our-location__train-icon.png') no-repeat;
+    }
+  }
+
+  &__transport{
+    text-align:                   center;
+    max-width:                    415px;
+    margin:                       0 auto;
 
   }
-}
 
-.to-get-on{
-
-  &__title{
-
+  &__transport-title{
+    font-size: @text-size-sm;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 20px;
   }
 
   &__transport-variants{
+    padding: 20px;
 
   }
 }

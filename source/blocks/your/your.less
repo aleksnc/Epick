@@ -1,0 +1,41 @@
+.your{
+  display:                        flex;
+  flex-direction:                 column;
+  padding:                        20px;
+
+  @media (min-width: 768px){
+    flex-direction:               row;
+    flex-wrap:                    wrap;
+    justify-content:              space-between;
+  }
+
+  @media (min-width: 1200px){
+    padding:                      20px 0;
+  }
+
+  &__contact{
+    text-align:                   left;
+    font-size:                    @text-size-sm;
+    width:                        100%;
+
+    @media (min-width: 768px){
+      width:                      49%;
+    }
+  }
+
+  &__info{
+    width:                        100%;
+    text-transform:               uppercase;
+    text-align:                   center;
+    margin:                       7px 0;
+    border:                       2px solid @gray-light;
+    padding:                      15px 0;
+   // background-image:             url('@{img-path}ico-NO.png');
+    background-repeat:            no-repeat;
+    background-position:          20px center;
+  }
+
+  &__contact-descrption{
+    text-transform:               none;
+  }
+}

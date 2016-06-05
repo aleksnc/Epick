@@ -1,0 +1,44 @@
+.payment
+    .payment__types
+        .payment__type
+            .payment__type-switch
+                input#cash.payment__variant(type='radio', name='payment__type')
+                label.payment__label(for='cash') ПО ПРИЕЗДУ
+                span.payment__type-description
+
+        #payment__card.payment__type.payment__type--margin
+            .payment__type-switch
+                input#card.payment__variant(type='radio', name='payment__type' checked)
+                label.payment__label(for='card') СЕЙЧАС
+                span.payment__type-description
+            .payment__card
+                .payment__card-block-left
+                    .payment__card-info
+                        span.payment__card-descrption Номер карты
+                        input#card_number.payment__card-content(onkeyup="valid_focus(event)" type='text'
+                        placeholder='0000-0000-0000-0000' maxlength="19")
+                    .payment__card-info
+                        span.payment__card-descrption фамилия владельца карты
+                        input#card_name.payment__card-content(onkeyup="valid_focus(event)"
+                        type='text' placeholder='Vladimir vladimirov')
+                .payment__card-block-right
+                    .payment__card-info
+                        span.payment__card-descrption код CVV
+                        input#card_cvv.payment__card-content.payment__card-content--mini(onkeyup="valid_focus(event)"
+                        type='text' placeholder='CVV' maxlength="3")
+                    .payment__card-info
+                        span.payment__card-descrption Действует до
+                        input#card_date.payment__card-content.payment__card-content--mini(onkeyup="valid_focus(event)"
+                        type='text' placeholder='01/2020' maxlength="7")
+
+    .payment__info
+        span.payment__info-title К оплате
+        span.payment__info-price --
+        p.payment__info-attention
+            |Пожалуйста,
+            a.btn.btn--anchor(href="#date")  выберите дату
+            | въезда и выезда, чтобы
+            |увидеть сумму к оплате
+
+
+

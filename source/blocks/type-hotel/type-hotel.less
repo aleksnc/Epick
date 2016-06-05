@@ -1,0 +1,35 @@
+.type-hotel{
+  display:                        flex;
+  justify-content:                space-around;
+  text-transform:                 uppercase;
+  width: 100%;
+
+  &__item{
+    width:                        100%;
+    margin:                       20px 0px;
+    cursor:                       pointer;
+    &--border-right{
+      border-right:               2px solid;
+      border-color:               @gray-light;
+    }
+  }
+  &__hotel{
+    display:                      block;
+    background-image:             url('@{img-path}ico-apartment_House_512.png');
+    background-repeat:            no-repeat;
+    background-size:              100%;
+    background-position:          center;
+    width:                        82px;
+    height:                       160px;
+    padding-top:                  20px;
+    margin:                       0 auto;
+    opacity:                    0.5;
+    &--active{
+      opacity:                    1;
+    }
+
+    &--house{
+      background-image:           url('@{img-path}ico_family_house_512.png');
+    }
+  }
+}

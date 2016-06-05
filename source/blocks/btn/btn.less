@@ -58,34 +58,57 @@
 
 .btn--background{
   &:extend(.btn);
-  border-radius:                0;
-  background:                   @color-primary;
-  border-color:                 @color-primary;
-  width:                        100%;
+  border-radius:                  0;
+  background:                     @color-primary;
+  border-color:                   @color-primary;
+  max-width:                      100%;
+  padding: 16px 0 30px;
 
 
   &:hover{
-    background:                 @color-primary-active;
-    border-color:               @color-primary-active;
+    background:                   @color-primary-active;
+    border-color:                 @color-primary-active;
   }
 }
 
 .btn--stipple {
-  color:                        @gray-dark;
-  border-radius:                0;
-  background:                   none;
-  border:                       none;
-  border-bottom:                2px dashed @gray-dark;
-  text-decoration:              none;
-  padding:                      13px 0 4px;
-  width:                        81px;
+  color:                          @gray-dark;
+  border-radius:                  0;
+  background:                     none;
+  border:                         none;
+  border-bottom:                  2px dashed @gray-dark;
+  text-decoration:                none;
+  padding:                        13px 0 4px;
+  width:                          81px;
 
   &:hover{
-    color:                      #000;
-    border-color:               #fff;
-    background:                 none;
+    color:                        #000;
+    border-color:                 #fff;
+    background:                   none;
   }
 }
+
+
+.btn--anchor {
+  color:                          @gray-dark;
+  border-radius:                  0;
+  background:                     none;
+  border:                         none;
+  border-bottom:                  1px dashed @gray-dark;
+  text-decoration:                none;
+  padding:                        0 5px;
+  display:                        inline-block;
+  width:                          auto;
+  text-transform:                 none;
+  font-weight:                    400;
+
+  &:hover{
+    color:                        #000;
+    border-color:                 #fff;
+    background:                   none;
+  }
+}
+
 .btn-social{
   display:                      inline-flex;
   width:                        25px;

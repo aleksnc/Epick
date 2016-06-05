@@ -1,13 +1,15 @@
 .form-header {
-  text-align:                               center;
-  margin:                                   20px auto;
+  text-align:                     center;
+  margin:                         40px auto;
+  padding:                        0 21px;
+  max-width:                      420px;
   &__title{
-    font-size:                              @text-size-xl;
-    font-family:                            @font-family-h;
+    &:extend(.title);
+    margin: 20px 0;
   }
   &__description{
-    font-size:                              @text-size;
-    display:                                block;
+    font-size:                    @text-size;
+    display:                      block;
   }
 }
 

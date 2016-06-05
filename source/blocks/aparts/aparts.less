@@ -1,35 +1,67 @@
-.select-aparts{
-
-  &__wrapper{
-
-  }
-}
 
 .aparts{
-  max-width:                380px;
-  max-height:               337px;
-  position:                 relative;
-  text-align:               center;
-  padding-left:             20px;
+  max-width:                      380px;
+  max-height:                     337px;
+  position:                       relative;
+  text-align:                     center;
+  padding-left:                   10px;
+  width:                          100%;
+  margin:                         0 auto;
 
-  margin: 20px auto;
+  @media (min-width: 320px) {
+    padding-left:                 0px;
+  }
 
   &__img{
-    display:                block;
-    width:                  100%;
+    display:                      block;
+    width:                        100%;
   }
 
   &__type{
-    font-family:            @font-family-h;
-    font-size:              26px;
-    display:                block;
-    background:               white;
+    font-family:                  @font-family-h;
+    font-size:                    26px;
+    display:                      block;
+    background:                   white;
+  }
+
+  &__title{
+    &:extend(.title);
+    color:                        #fff;
+    margin:                       20px 0;
+    padding:                      0 20px;
   }
 
   &__price{
-    display:                block;
-    font-size:              @text-size-sm;
-    background:               white;
-    padding: 5px 0 30px;
+    display:                      block;
+    font-size:                    @text-size-sm;
+    background:                   white;
+    padding:                      5px 0 30px;
+  }
+}
+
+.aparts__selection-wrapper{
+    background:                   url('@{img-path}bg-aparts.png') no-repeat;
+    padding:                      0px;
+    background-size:              cover;
+    position:                     relative;
+  
+    @media (min-width: 768px) {
+      padding:                      20px;
+    }
+  }
+
+.aparts__selection{
+  max-width:                      795px;
+  margin:                         0 auto;
+}
+
+.aparts__veil{
+  position:                       absolute;
+  width:                          100%;
+  height:                         100%;
+  background:                     rgba(0,0,0,0);
+  top:                            0;
+  @media (min-width: 768px) {
+    display:                      none;
   }
 }

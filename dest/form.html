@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -30,6 +31,155 @@
         </nav>
       </div>
     </header>
+    <div class="form-header"><span class="form-header__title">Бронирование</span><span class="form-header__description">
+        Чтобы забронировать номер в отеле или коттедж,
+        заполните форму ниже или просто позвоните
+        по телефону:<span class="color-attention"> +7 812 777-55-88</span></span></div>
+    <form class="form">
+      <section class="form__step"><a name="date"></a>
+        <div class="form__step-item"><span class="form__step-description">Шаг 1</span><span class="form__step-title">Дата отдыха</span>
+          <div class="form__switcher form__switcher--bg-white">
+            <div class="length-stay length-stay--border-right"><span class="length-stay__title">Дата Въезда</span>
+              <input type="text" placeholder="ДД" maxlength="2" class="length-stay__d">
+              <input type="text" placeholder="ММ" maxlength="2" class="length-stay__d length-stay__d--month">
+              <input type="text" placeholder="ГГГГ" maxlength="4" class="length-stay__d length-stay__d--year">
+            </div>
+            <div class="length-stay"><span class="length-stay__title">Дата Выезда</span>
+              <input type="text" placeholder="ДД" maxlength="2" class="length-stay__d">
+              <input type="text" placeholder="ММ" maxlength="2" class="length-stay__d length-stay__d--month">
+              <input type="text" placeholder="ГГГГ" maxlength="4" class="length-stay__d length-stay__d--year">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form__step form__step--color">
+        <div class="form__step-item"><span class="form__step-description">Шаг 2</span><span class="form__step-title">Место проживания</span>
+          <div class="form__switcher">
+            <div class="type-hotel">
+              <div class="type-hotel__item type-hotel__item--border-right"><span id="hotel" onclick="hotelSwitch_on()" class="type-hotel__hotel">Отель</span></div>
+              <div class="type-hotel__item"><span id="house" onclick="hotelSwitch_off()" class="type-hotel__hotel type-hotel__hotel--house type-hotel__hotel--active"> Коттедж</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="step-3" class="form__step form__step--height-480">
+        <div class="form__step-item form__step-item--full-width"><span class="form__step-description">Шаг 3</span><span class="form__step-title">Тип коттеджа
+            <div class="form__switcher form__switcher--border-none">
+              <div class="switch-rooms__wrapper">
+                <ul id="switch-rooms" class="switch-rooms">
+                  <li class="switch-rooms__title switch-rooms__title--border-right switch-rooms__title--active"><span>Флагман</span>
+                    <ul data-cursor="86" class="switch-rooms__list switch-rooms__list--active">
+                      <li class="switch-rooms__cursor"></li>
+                      <li class="switch-rooms__description"><span class="area">Площадь 100м</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--rooms"><span class="rooms">3 Комнаты</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--beds"><span class="sleeps">5 Спальных мест</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--wc"><span class="wc">Раздельный санузел</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--wifi"><span class="wi-fi">Wi-Fi</span></li>
+                    </ul>
+                  </li>
+                  <li class="switch-rooms__title switch-rooms__title--border-right"><span>Озерный</span>
+                    <ul data-cursor="276" class="switch-rooms__list">
+                      <li class="switch-rooms__cursor"></li>
+                      <li class="switch-rooms__description"><span class="area">Площадь 80м</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--rooms"><span class="rooms">2 Комнаты</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--beds"><span class="sleeps">4 Спальных мест</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--wc"><span class="wc">Раздельный санузел</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--wifi"><span class="wi-fi">Wi-Fi</span></li>
+                    </ul>
+                  </li>
+                  <li class="switch-rooms__title switch-rooms__title--border-right"><span>Ольховка</span>
+                    <ul data-cursor="475" class="switch-rooms__list">
+                      <li class="switch-rooms__cursor"></li>
+                      <li class="switch-rooms__description"><span class="area">Площадь 60м</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--rooms"><span class="rooms">2 Комнаты</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--beds"><span class="sleeps">4 Спальных мест</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--wc"><span class="wc">Раздельный санузел</span></li>
+                    </ul>
+                  </li>
+                  <li class="switch-rooms__title"><span>Портовый</span>
+                    <ul data-cursor="668" class="switch-rooms__list">
+                      <li class="switch-rooms__cursor"></li>
+                      <li class="switch-rooms__description"><span class="area">Площадь 60м</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--rooms"><span class="rooms">2 Комнаты</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--beds"><span class="sleeps">8 Спальных мест</span></li>
+                      <li class="switch-rooms__description switch-rooms__description--wc"><span class="wc">Раздельный санузел</span></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div></span></div>
+      </section>
+      <section class="form__step form__step--color">
+        <div class="form__step-item form__step-item--full-width"><span class="form__step-description">Шаг 4</span><span class="form__step-title">Персональная информация</span>
+          <div class="form__switcher form__switcher--border-white">
+            <div class="your">
+              <div class="your__contact">
+                <input id="your_name" type="text" placeholder="ИМЯ" onkeyup="valid_focus(event)" class="your__info">
+              </div>
+              <div class="your__contact">
+                <input id="your_lname" type="text" placeholder="ФАМИЛИЯ" onkeyup="valid_focus(event)" class="your__info">
+              </div>
+              <div class="your__contact">
+                <input id="your_number" type="text" placeholder="номер телефона" onkeyup="valid_focus(event)" maxlength="18" class="your__info"><span class="your__contact-descrption">Мы свяжемся с вами в случае необходимости.</span>
+              </div>
+              <div class="your__contact">
+                <input id="your_email" type="email" placeholder="E-MAIL" onkeyup="valid_focus(event)" class="your__info"><span class="your__contact-descrption">
+                  На этот адрес мы вышлем вам подтверждение
+                  о забронированном номере.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form__step form__step--padding-bottom">
+        <div class="form__step-item form__step-item--full-width"><span class="form__step-description">Шаг 5</span><span class="form__step-title">Способ оплаты</span>
+          <div class="form__switcher form__switcher--border-none">
+            <div class="payment">
+              <div class="payment__types">
+                <div class="payment__type">
+                  <div class="payment__type-switch">
+                    <input id="cash" type="radio" name="payment__type" class="payment__variant">
+                    <label for="cash" class="payment__label">ПО ПРИЕЗДУ</label><span class="payment__type-description"></span>
+                  </div>
+                </div>
+                <div id="payment__card" class="payment__type payment__type--margin">
+                  <div class="payment__type-switch">
+                    <input id="card" type="radio" name="payment__type" checked class="payment__variant">
+                    <label for="card" class="payment__label">СЕЙЧАС</label><span class="payment__type-description"></span>
+                  </div>
+                  <div class="payment__card">
+                    <div class="payment__card-block-left">
+                      <div class="payment__card-info"><span class="payment__card-descrption">Номер карты</span>
+                        <input id="card_number" onkeyup="valid_focus(event)" type="text" placeholder="0000-0000-0000-0000" maxlength="19" class="payment__card-content">
+                      </div>
+                      <div class="payment__card-info"><span class="payment__card-descrption">фамилия владельца карты</span>
+                        <input id="card_name" onkeyup="valid_focus(event)" type="text" placeholder="Vladimir vladimirov" class="payment__card-content">
+                      </div>
+                    </div>
+                    <div class="payment__card-block-right">
+                      <div class="payment__card-info"><span class="payment__card-descrption">код CVV</span>
+                        <input id="card_cvv" onkeyup="valid_focus(event)" type="text" placeholder="CVV" maxlength="3" class="payment__card-content payment__card-content--mini">
+                      </div>
+                      <div class="payment__card-info"><span class="payment__card-descrption">Действует до</span>
+                        <input id="card_date" onkeyup="valid_focus(event)" type="text" placeholder="01/2020" maxlength="7" class="payment__card-content payment__card-content--mini">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="payment__info"><span class="payment__info-title">К оплате</span><span class="payment__info-price">--</span>
+                <p class="payment__info-attention">Пожалуйста,<a href="#date" class="btn btn--anchor"> выберите дату</a>въезда и выезда, чтобы
+                  увидеть сумму к оплате
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="form__stend">
+        <input href="javascript:void(0);" type="button" value="Забронировать" class="btn btn--background">
+      </div>
+    </form>
     <footer class="page-footer__wrapper">
       <div class="page-footer">
         <div class="page-footer__adress">г. Санкт-Петербург Приморское ш.600</div>
@@ -41,6 +191,7 @@
       </div>
     </footer>
     <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/fancy/jquery.fancybox.pack.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
   </body>
