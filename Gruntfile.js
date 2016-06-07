@@ -47,6 +47,28 @@ module.exports = function(grunt){
         }
       }
     },
+    cmq: {
+      options: {
+        log: false
+      },
+      your_target: {
+        files: {
+          'tmp': ['dest/css/*.css']
+        }
+      }
+    },
+    autoprefixer:{
+      options: {
+        browsers: ['> 1%', 'last 3 versions', 'Firefox ESR', 'Opera 12.1'],
+        cascade: false
+      },
+      multiple_files: {
+        expand: true,
+        flatten: true,
+        src: 'dest/css/*.css',
+        dest: 'dest/'
+      }
+    },
     copy: {
       css: {
         files: [{
@@ -65,16 +87,6 @@ module.exports = function(grunt){
         }]
       },
     },
-    cmq: {
-      options: {
-        log: false
-      },
-      your_target: {
-        files: {
-          'tmp': ['dest/css/*.css']
-        }
-      }
-    },
     watch: {
       js: {
         files: ['source/js/**/*.js'],
@@ -82,7 +94,7 @@ module.exports = function(grunt){
       },
       css: {
         files: ['source/css/**/*.css'],
-        tasks: ['copy:css'],
+        tasks: ['copy:css','cmq'],
       },
       jade: {
         files: ['source/**/*.jade'],
@@ -90,14 +102,16 @@ module.exports = function(grunt){
       },
       less: {
         files: ['source/**/*.less'],
-        tasks: ['less'],
+        tasks: ['less','autoprefixer'],
+        options: {
+          spawn: false
+        }
       },
       imagemin: {
         files: ['source/**/*.{png,jpg,gif}'],
         tasks: ['image'],
       }
     },
-
     browserSync: {
       dev: {
         bsFiles: {
@@ -113,6 +127,7 @@ module.exports = function(grunt){
       }
     }
   });
+  grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-combine-media-queries');
   grunt.loadNpmTasks('grunt-image');
   grunt.loadNpmTasks('grunt-contrib-jade');
@@ -121,11 +136,12 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-browser-sync');
   grunt.registerTask('default', [
-    'cmq',
     'image',
     'copy',
     'jade',
     'less',
+    'autoprefixer',
+    'cmq',
     'browserSync',
     'watch'
   ]);

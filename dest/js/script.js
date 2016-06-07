@@ -125,6 +125,14 @@ function restSwitch_on(){
    $('#restBottom_1').toggleClass('rest-tabs--switch-width', true);
 }
 
+$('.rest-tabs__btn').click(function(){
+   $('.rest-tabs__btn').toggleClass('rest-tabs__tab-active', false);
+
+   var ht=$(this).html();
+   $(this).toggleClass('rest-tabs__tab-active', true);
+   console.log(ht);
+});
+
 function hotelSwitch_on(){
    $('#hotel').toggleClass('type-hotel__hotel--active', true);
    $('#house').toggleClass('type-hotel__hotel--active', false);
@@ -141,7 +149,6 @@ function hotelSwitch_off(){
 $(".single-room__magnifier").click(function(){
    var src= $('.slick-active > img').data('img');
    var path='img/rooms/'+src;
-   console.log(path);
    $(".single-room__magnifier").attr('href',path);
 });
 

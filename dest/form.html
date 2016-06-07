@@ -7,34 +7,34 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="page-header">
-      <div class="page-header__inner">
-        <div class="page-header__wrapper-logo"><a href="index.html" class="logo"></a></div>
-        <nav class="main-nav">
-          <ul class="main-nav__list">
-            <li class="main-nav__link"><a href="roomlist.html">номера</a></li>
-            <li class="main-nav__link main-nav--active"><a href="single-room.html">коттедж</a></li>
-            <li class="main-nav__link"><a href="#">ресторан</a></li>
-            <li class="main-nav__link"><a href="#">отдых</a></li>
-            <li class="main-nav__link"><a href="#">контакты</a></li>
-          </ul><span id="main-nav__burger" onclick="burgerToggl()" class="main-nav__burger"></span>
-        </nav>
-        <div class="page-header__contacts"><a href="tel:+78127775588">+7 812 777-55-88</a>г. Санкт-Петербург, Приморское ш.600</div><a href="form.html" class="btn btn--icon-calendar btn--header-lg">Забронировать</a>
-        <nav id="nav-display" class="nav-display">
-          <ul class="nav-display__list">
-            <li class="nav-display__link"><a href="roomlist.html">номера</a></li>
-            <li class="nav-display__link main-nav--active"><a href="single-room.html">коттедж</a></li>
-            <li class="nav-display__link"><a href="#">ресторан</a></li>
-            <li class="nav-display__link"><a href="#">отдых</a></li>
-            <li class="nav-display__link"><a href="#">контакты</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+        <header class="page-header">
+          <div class="page-header__inner">
+            <div class="page-header__wrapper-logo"><a href="index.html" class="logo"></a></div>
+            <nav class="main-nav">
+              <ul class="main-nav__list">
+                <li class="main-nav__link noLine"><a href="roomlist.html">номера</a></li>
+                <li class="main-nav__link noLine"><a href="single-room.html">коттедж</a></li>
+                <li class="main-nav__link noLine"><a href="#">ресторан</a></li>
+                <li class="main-nav__link noLine"><a href="#">отдых</a></li>
+                <li class="main-nav__link noLine"><a href="#">контакты</a></li>
+              </ul><span id="main-nav__burger" onclick="burgerToggl()" class="main-nav__burger"></span>
+            </nav>
+            <div class="page-header__contacts"><a href="tel:+78127775588">+7 812 777-55-88</a>г. Санкт-Петербург, Приморское ш.600</div><a href="form.html" class="btn btn--icon-calendar btn--header-lg">Забронировать</a>
+            <nav id="nav-display" class="nav-display">
+              <ul class="nav-display__list">
+                <li class="nav-display__link"><a href="roomlist.html">номера</a></li>
+                <li class="nav-display__link main-nav--active"><a href="single-room.html">коттедж</a></li>
+                <li class="nav-display__link"><a href="#">ресторан</a></li>
+                <li class="nav-display__link"><a href="#">отдых</a></li>
+                <li class="nav-display__link"><a href="#">контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
     <div class="form-header"><span class="form-header__title">Бронирование</span><span class="form-header__description">
         Чтобы забронировать номер в отеле или коттедж,
         заполните форму ниже или просто позвоните
-        по телефону:<span class="color-attention"> +7 812 777-55-88</span></span></div>
+        по телефону: <a href="tel:+78127775588" class="color-attention">+7 812 777-55-88</a></span></div>
     <form class="form">
       <section class="form__step"><a name="date"></a>
         <div class="form__step-item"><span class="form__step-description">Шаг 1</span><span class="form__step-title">Дата отдыха</span>

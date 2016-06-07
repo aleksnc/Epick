@@ -7,34 +7,34 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="page-header">
-      <div class="page-header__inner">
-        <div class="page-header__wrapper-logo"><a href="index.html" class="logo"></a></div>
-        <nav class="main-nav">
-          <ul class="main-nav__list">
-            <li class="main-nav__link"><a href="roomlist.html">номера</a></li>
-            <li class="main-nav__link main-nav--active"><a href="single-room.html">коттедж</a></li>
-            <li class="main-nav__link"><a href="#">ресторан</a></li>
-            <li class="main-nav__link"><a href="#">отдых</a></li>
-            <li class="main-nav__link"><a href="#">контакты</a></li>
-          </ul><span id="main-nav__burger" onclick="burgerToggl()" class="main-nav__burger"></span>
-        </nav>
-        <div class="page-header__contacts"><a href="tel:+78127775588">+7 812 777-55-88</a>г. Санкт-Петербург, Приморское ш.600</div><a href="form.html" class="btn btn--icon-calendar btn--header-lg">Забронировать</a>
-        <nav id="nav-display" class="nav-display">
-          <ul class="nav-display__list">
-            <li class="nav-display__link"><a href="roomlist.html">номера</a></li>
-            <li class="nav-display__link main-nav--active"><a href="single-room.html">коттедж</a></li>
-            <li class="nav-display__link"><a href="#">ресторан</a></li>
-            <li class="nav-display__link"><a href="#">отдых</a></li>
-            <li class="nav-display__link"><a href="#">контакты</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+        <header class="page-header">
+          <div class="page-header__inner">
+            <div class="page-header__wrapper-logo"><a href="index.html" class="logo"></a></div>
+            <nav class="main-nav">
+              <ul class="main-nav__list">
+                <li class="main-nav__link noLine"><a href="roomlist.html">номера</a></li>
+                <li class="main-nav__link noLine"><a href="single-room.html">коттедж</a></li>
+                <li class="main-nav__link noLine"><a href="#">ресторан</a></li>
+                <li class="main-nav__link noLine"><a href="#">отдых</a></li>
+                <li class="main-nav__link noLine"><a href="#">контакты</a></li>
+              </ul><span id="main-nav__burger" onclick="burgerToggl()" class="main-nav__burger"></span>
+            </nav>
+            <div class="page-header__contacts"><a href="tel:+78127775588">+7 812 777-55-88</a>г. Санкт-Петербург, Приморское ш.600</div><a href="form.html" class="btn btn--icon-calendar btn--header-lg">Забронировать</a>
+            <nav id="nav-display" class="nav-display">
+              <ul class="nav-display__list">
+                <li class="nav-display__link"><a href="roomlist.html">номера</a></li>
+                <li class="nav-display__link main-nav--active"><a href="single-room.html">коттедж</a></li>
+                <li class="nav-display__link"><a href="#">ресторан</a></li>
+                <li class="nav-display__link"><a href="#">отдых</a></li>
+                <li class="nav-display__link"><a href="#">контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
     <section class="rest-tabs">
       <ul class="rest-tabs__switcher">
-        <li class="rest-tabs__tab"><a href="javascript:void(0)" onclick="restSwitch_off()">семейный отдых</a></li>
-        <li class="rest-tabs__tab"><a href="javascript:void(0)" onclick="restSwitch_on()">корпоративный</a></li>
+        <li class="rest-tabs__tab"><a href="javascript:void(0)" onclick="restSwitch_off()" class="rest-tabs__btn rest-tabs__tab-active">семейный отдых</a></li>
+        <li class="rest-tabs__tab"><a href="javascript:void(0)" onclick="restSwitch_on()" class="rest-tabs__btn">корпоративный</a></li>
       </ul>
       <div id="restTop_1" class="rest-tabs__top">
         <div class="rest-tabs__top-item">
@@ -201,14 +201,16 @@
     </section>
     <div class="location">
       <h1 class="location__title">Как до нас добраться</h1>
-      <div class="location__map"></div>
+      <div class="location__map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1043.3817404989545!2d29.639441473423922!3d60.19195701968106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469655a8f3af85e1%3A0x73d49700f555aa7e!2z0J_RgNC40LzQvtGA0YHQutC-0LUg0YguLCA1OTgsIFVzaGtvdm8sIGcuIFNhbmt0LVBldGVyYnVyZywgMTk5MDA0!5e0!3m2!1sen!2sru!4v1447771316946" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+      </div>
       <article class="location__to-get-on">
         <div class="location__transport"><span class="location__transport-ico"></span><span class="location__transport-title">Автобусы</span>
           <ul class="location__transport-variants">
-            <li> № 211 от станции метро «Черная речка» до остановки «Санаторий Репино»</li>
-            <li> № 305К от станции метро «Старая деревня»</li>
-            <li> № 680К от станции метро «Проспект Просвещения»</li>
-            <li> № 400К от станции метро «Площадь Ленина»</li>
+            <li><span>№ 211</span> от станции метро «Черная речка» до остановки «Санаторий Репино»</li>
+            <li><span>№ 305К</span> от станции метро «Старая деревня»</li>
+            <li><span>№ 680К</span> от станции метро «Проспект Просвещения»</li>
+            <li><span>№ 400К</span> от станции метро «Площадь Ленина»</li>
           </ul>
         </div>
         <div class="location__transport"><span class="location__transport-ico location__transport-ico--train"></span><span class="location__transport-title">Электропоезд</span>

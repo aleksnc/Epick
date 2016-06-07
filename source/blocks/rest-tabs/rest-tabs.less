@@ -8,24 +8,40 @@
     margin:                             0 auto;
   }
 
+
   &__tab {
-    color:                              @gray-light;
     text-transform:                     uppercase;
     font-size:                          @text-size-sm;
     display:                            inline-block;
     margin:                             10px;
+  }
 
-    a{
-      &:active{
-        color:                          @color-second;
-      }
-      &:hover{
-        color:                          @color-second;
-      }
+  &__btn{
+    color:                              @gray;
 
-      &:active > .line-l1 {
-        opacity:                        1;
-      }
+    &:active {
+      color:                            @color-second;
+    }
+    &:active:after {
+      content:                          "";
+      display:                          block;
+      width:                            30px;
+      border-bottom:                    2px solid @color-second;
+      margin:                           0 auto;
+    }
+    &:hover{
+      color:                            @color-second;
+    }
+  }
+
+  &__tab-active{
+    color:                              @color-second;
+    &:after{
+      content:                          "";
+      display:                          block;
+      width:                            30px;
+      border-bottom:                    2px solid @color-second;
+      margin:                           0 auto;
     }
   }
 
