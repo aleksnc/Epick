@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="600e9242-2b18-4a5e-8834-b7b6a8be81ae" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-500.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-500.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-500.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-500.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-500.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-700.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-700.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-700.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-700.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-700.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pt-serif-caption-v8-cyrillic_latin-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pt-serif-caption-v8-cyrillic_latin-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pt-serif-caption-v8-cyrillic_latin-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pt-serif-caption-v8-cyrillic_latin-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pt-serif-caption-v8-cyrillic_latin-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-face-second.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-insta-second.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-vk-second.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-vk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/aparts/aparts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/btn.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/img/icon-calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/img/icon-face-second.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/img/icon-facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/img/icon-insta-second.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/img/icon-vk-second.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/img/icon-vk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/form-header/form-header.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/form/form.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/global/global.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/input-contacts/input-contacts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/input-contacts/input-contacts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/length-stay/length-stay.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/length-stay/length-stay.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/location/location.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/logo/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/logo/logo.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/main-nav/main-nav.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/offers/offers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/page-footer/page-footer.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/page-header/page-header.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/rest-tabs/rest-tabs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/reviews/reviews.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/stay-type/stay-type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/typography/typography.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/variables/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/style.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/roomlist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/singleroom.html" afterPath="" />
+    </list>
+    <ignored path="EPICK.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="EPICK" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Jade File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/source/blocks/length-stay/length-stay.less" />
+        <option value="$PROJECT_DIR$/source/blocks/type-hotel/type-hotel.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/type-hotel/type-hotel.less" />
+        <option value="$PROJECT_DIR$/source/blocks/other-rooms/other-rooms.less" />
+        <option value="$PROJECT_DIR$/source/blocks/switch-rooms/switch-rooms.jade" />
+        <option value="$PROJECT_DIR$/source/img/ico--OK.svg" />
+        <option value="$PROJECT_DIR$/source/blocks/svg.less" />
+        <option value="$PROJECT_DIR$/dest/img/ico-NO.svg" />
+        <option value="$PROJECT_DIR$/dest/img/ico-OK.svg" />
+        <option value="$PROJECT_DIR$/dest/img/sprites.svg" />
+        <option value="$PROJECT_DIR$/source/blocks/page-footer/page-footer.less" />
+        <option value="$PROJECT_DIR$/source/blocks/switch-rooms/switch-rooms.less" />
+        <option value="$PROJECT_DIR$/source/blocks/form/form.less" />
+        <option value="$PROJECT_DIR$/source/blocks/your/your.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/your/your.less" />
+        <option value="$PROJECT_DIR$/source/blocks/payment/payment.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/payment/payment.less" />
+        <option value="$PROJECT_DIR$/source/blocks/form/form.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/page-footer/page-footer.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/jquery.fancybox.less" />
+        <option value="$PROJECT_DIR$/source/blocks/single-room/single-room.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/aparts/aparts.less" />
+        <option value="$PROJECT_DIR$/source/blocks/aparts/aparts.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/other-rooms/other-rooms.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/room-list/room-list.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/single-room/single-room.less" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/dest/css/style.css" />
+        <option value="$PROJECT_DIR$/dest/style.css" />
+        <option value="$PROJECT_DIR$/source/blocks/rest-tabs/rest-tabs.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/rest-tabs/rest-tabs.less" />
+        <option value="$PROJECT_DIR$/source/blocks/btn/btn.less" />
+        <option value="$PROJECT_DIR$/source/blocks/main-nav/main-nav.less" />
+        <option value="$PROJECT_DIR$/source/blocks/global/global.less" />
+        <option value="$PROJECT_DIR$/source/blocks/location/location.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/location/location.less" />
+        <option value="$PROJECT_DIR$/source/blocks/page-header/page-header.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/foot-head.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/mixins.jade" />
+        <option value="$PROJECT_DIR$/source/css/style.less" />
+        <option value="$PROJECT_DIR$/source/single-room.jade" />
+        <option value="$PROJECT_DIR$/source/roomlist.jade" />
+        <option value="$PROJECT_DIR$/source/form.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/main-nav/main-nav.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/variables/variables.less" />
+        <option value="$PROJECT_DIR$/source/blocks/form-header/form-header.jade" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/source/index.jade" />
+        <option value="$PROJECT_DIR$/source/blocks/slick-carusel/slick-theme.less" />
+        <option value="$PROJECT_DIR$/source/js/script.js" />
+        <option value="$PROJECT_DIR$/source/blocks/nav-display/nav-display.less" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1370" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Less</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>LessResolvedByNameOnly</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EPICK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\e_gno\Desktop\EPICK" />
+      <recent name="C:\Users\e_gno\Desktop\EPICK\source\img" />
+      <recent name="C:\Users\e_gno\Desktop\EPICK\dest\img" />
+      <recent name="C:\Users\e_gno\Desktop\EPICK\source\blocks\form" />
+      <recent name="C:\Users\e_gno\Desktop\EPICK\source\blocks\" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\e_gno\Desktop\EPICK\source\blocks" />
+      <recent name="C:\Users\e_gno\Desktop\EPICK\source" />
+      <recent name="C:\Users\e_gno\Desktop\EPICK\less\blocks\logo\img" />
+      <recent name="C:\Users\e_gno\Desktop\EPICK\less\blocks" />
+      <recent name="C:\Users\e_gno\Desktop\EPICK\less\blocks\block-main-nav" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="600e9242-2b18-4a5e-8834-b7b6a8be81ae" name="Default" comment="" />
+      <created>1462720464002</created>
+      <option name="number" value="Default" />
+      <updated>1462720464002</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <flatten-packages value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.243994" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6735043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6735043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24404761" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/source/js/script.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/source/js/script.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/source/js/script.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/source/js/script.js</url>
+          <line>154</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/old/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26407766">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="76" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
