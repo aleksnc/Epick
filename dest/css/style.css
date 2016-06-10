@@ -1143,8 +1143,6 @@ label span {
   text-transform: uppercase;
   height: 100%;
   overflow: hidden;
-  -webkit-transition: height 1s ease-out 0.5s;
-  transition: height 1s ease-out 0.5s;
 }
 @media (min-width: 1200px) {
   .nav-display {
@@ -1195,9 +1193,9 @@ label span {
   display: block;
 }
 .nav-display > ul li {
-  margin-top: -39px;
-  -webkit-transition: 0.4s linear;
-  transition: 0.4s linear;
+  margin-top: -100px;
+  -webkit-transition: 0.8s linear;
+  transition: 0.8s linear;
 }
 .nav-display--show > ul li {
   margin-top: 0;

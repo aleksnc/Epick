@@ -102,12 +102,6 @@
 	display: none;
 }
 
-/* Slider */
-
-.slick-loading .slick-list {
-	background: #fff url('ajax-loader.gif') center center no-repeat;
-}
-
 /* Icons */
 
 @font-face {
@@ -1161,7 +1155,7 @@ label span {
 	display: block;
 	width: 100%;
 	text-transform: uppercase;
-	height: 0;
+	height: 100%;
 	overflow: hidden;
 	-webkit-transition: height 1s ease-out 0.5s;
 	transition: height 1s ease-out 0.5s;
@@ -1209,9 +1203,16 @@ label span {
 
 .nav-display--show {
 	display: block;
-	height: 200px;
-	-webkit-transition: height 1s ease-out 0.5s;
-	transition: height 1s ease-out 0.5s;
+}
+
+.nav-display > ul li {
+	margin-top: -39px;
+	-webkit-transition: 0.4s linear;
+	transition: 0.4s linear;
+}
+
+.nav-display--show > ul li {
+	margin-top: 0;
 }
 
 .offers {
