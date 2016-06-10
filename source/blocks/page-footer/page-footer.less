@@ -1,0 +1,44 @@
+.page-footer{
+  display:                                                        flex;
+  font-size:                                                      @text-size-sm;
+  justify-content:                                                center;
+  width:                                                          100%;
+  max-width:                                                      1170px;
+  margin:                                                         0 auto;
+  @media (min-width: 768px) {
+    justify-content:                                              space-between;
+  }
+
+  &__wrapper{
+    border-top:                                                   1px solid @gray-light;
+    padding:                                                      30px 20px;
+  }
+
+  &__adress{
+    display:                                                      none;
+    width:                                                        200px;
+    padding-top:                                                  20px;
+    @media (min-width: 768px) {
+      display:                                                    inline-block;
+    }
+  }
+
+  &__our-social{
+    display:                                                      flex;
+    flex-wrap:                                                    wrap;
+    justify-content:                                              space-between;
+    max-width:                                                    142px;
+    @media (min-width: 768px) {
+      margin-left:                                                -65px;
+    }
+  }
+
+  &__contacts{
+    display:                                                      none;
+    width:                                                        130px;
+    padding-top:                                                  20px;
+    @media (min-width: 768px) {
+      display:                                                    inline-block;
+    }
+  }
+}

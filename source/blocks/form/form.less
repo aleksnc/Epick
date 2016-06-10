@@ -1,0 +1,115 @@
+.form {
+  background:                    @gray-wight;
+
+  &__step {
+    text-align:                   center;
+    padding:                      40px 0 30px;
+
+    &--color {
+      background:                 #fff;
+    }
+    &--height-480{
+
+      @media (min-width: 768px) {
+        height:                   480px;
+      }
+    }
+    &--display-none {
+      display:                     none;
+    }
+
+    &--padding-bottom{
+      padding-bottom:              0;
+    }
+  }
+
+  &__step-item {
+    max-width:                    400px;
+    margin:                       0 auto;
+    padding:                      0 20px;
+
+    &--full-width{
+      max-width:                  780px;
+      padding:                    0;
+    }
+  }
+
+  &__step-title {
+    &:extend(.title);
+  }
+
+  &__step-description {
+    text-transform:               uppercase;
+    color:                        @gray;
+    display:                      block;
+  }
+
+  &__switcher {
+    margin:                       30px auto;
+    display:                      flex;
+    flex-direction:               column;
+    justify-content:              space-between;
+    width:                        100%;
+    max-width:                    780px;
+    border:                       solid 2px;
+    border-color:                 @gray-wight;
+    position:                     relative;
+    font-size:                    @text-size-sm;
+    text-transform:               uppercase;
+    font-family:                  @font-family;
+
+    &--flex-row {
+      flex-direction:             row;
+    }
+
+    &--border-none{
+      border-color:               @gray-wight;
+    }
+
+    @media (min-width: 320px) {
+
+      &--border-white {
+        border-color:             #fff;
+      }
+    }
+
+    @media (min-width: 768px) {
+      flex-direction:             row;
+
+      &--border-white {
+        border-color:             #fff;
+      }
+
+      &--border-none{
+        border-color:             @gray-wight;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      border-color:               @gray-light;
+
+      &--border-white {
+        border-color:             #fff;
+      }
+
+      &--border-none{
+        border-color:             @gray-wight;
+      }
+
+      &--bg-white {
+        background:               white;
+      }
+    }
+  }
+
+  &__stend{
+    padding:                      50px 20px 80px;
+    background:                   @gray-wight;
+    max-width:                    780px;
+    margin:                       0 auto;
+
+    @media (min-width: 768px) {
+      padding:                    50px 0 80px;
+    }
+  }
+}

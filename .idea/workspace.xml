@@ -2,68 +2,411 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="600e9242-2b18-4a5e-8834-b7b6a8be81ae" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UI.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-500.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-500.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-500.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-500.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-500.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-700.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-700.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-700.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-700.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-700.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira-sans-v5-latin_cyrillic-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pt-serif-caption-v8-cyrillic_latin-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pt-serif-caption-v8-cyrillic_latin-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pt-serif-caption-v8-cyrillic_latin-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pt-serif-caption-v8-cyrillic_latin-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/pt-serif-caption-v8-cyrillic_latin-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-face-second.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-insta-second.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-vk-second.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-vk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/aparts/aparts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/btn.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/img/icon-calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/img/icon-face-second.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/img/icon-facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/img/icon-insta-second.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/img/icon-vk-second.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/btn/img/icon-vk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/form-header/form-header.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/form/form.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/global/global.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/input-contacts/input-contacts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/input-contacts/input-contacts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/length-stay/length-stay.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/length-stay/length-stay.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/location/location.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/logo/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/logo/logo.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/main-nav/main-nav.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/offers/offers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/page-footer/page-footer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/page-header/page-header.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/rest-tabs/rest-tabs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/reviews/reviews.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/stay-type/stay-type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/typography/typography.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/blocks/variables/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/roomlist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/singleroom.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/Elevator_Door_128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/Hotel_Bathtub__128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/King_Size_Bed_128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/Round_Lake_(2)_-_Fayetteville_NY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/Squad_rule_128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/Wifi_Modem_128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/allin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/bani.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/bg-aparts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/bg-social.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/billiard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/child.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/fancy/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/fancy/fancybox_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/fancy/fancybox_loading@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/fancy/fancybox_overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/fancy/fancybox_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/fancy/fancybox_sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/fancy/helpers/fancybox_buttons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/footbal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/h-index.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/ico-ATTENTION.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/ico-NO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/ico-OK-passive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/ico-OK.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/ico-ZOOM-OUT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/ico-ZOOM.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/ico-apartment_House_512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/ico_family_house_512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/icon-burger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/icon-calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/icon-face-second.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/icon-facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/icon-insta-second.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/icon-vk-second.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/icon-vk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/1s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/2s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/3s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/4s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/5s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/6s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/index_room/7s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/kate.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/mari.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/offers__bg — копия.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/offers__bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/our-location__bus-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/our-location__train-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/pool.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms-header--bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/1a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/1s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/3a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/3s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/4a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/4s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/5a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/5s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/6s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/7s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/econom-room.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/lux-room.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/standard-plus-room.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/rooms/standard-room.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/sky.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/sky320.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/spa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/triangle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/fancy/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/fancy/fancybox_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/fancy/fancybox_loading@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/fancy/fancybox_overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/fancy/fancybox_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/fancy/fancybox_sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/fancy/helpers/fancybox_buttons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-500.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-500.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-700.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-700.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/pt-serif-caption-v8-cyrillic_latin-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/pt-serif-caption-v8-cyrillic_latin-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/Elevator_Door_128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/Hotel_Bathtub__128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/King_Size_Bed_128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/Round_Lake_(2)_-_Fayetteville_NY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/Squad_rule_128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/Wifi_Modem_128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/allin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/bani.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/bg-aparts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/bg-social.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/billiard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/child.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/fancy/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/fancy/fancybox_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/fancy/fancybox_loading@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/fancy/fancybox_overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/fancy/fancybox_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/fancy/fancybox_sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/footbal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/h-index.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/ico-ATTENTION.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/ico-NO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/ico-OK-passive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/ico-OK.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/ico-ZOOM-OUT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/ico-ZOOM.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/ico-apartment_House_512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/ico_family_house_512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/icon-burger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/1s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/2s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/3s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/4s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/5s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/6s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/index_room/7s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/kate.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/mari.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/offers__bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/our-location__bus-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/our-location__train-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/pool.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms-header--bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/1a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/1s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/3a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/3s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/4a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/4s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/5a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/5s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/6s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/7s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/econom-room.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/lux-room.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/standard-plus-room.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/rooms/standard-room.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/sky.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/sky320.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/spa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/triangle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/fancy/helpers/fancybox_buttons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/exp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/foot-head.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/ico-NO.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/ico-OK.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/img/sprites.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/fancy/helpers/jquery.fancybox-buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/fancy/helpers/jquery.fancybox-media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/fancy/helpers/jquery.fancybox-thumbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/fancy/jquery.fancybox.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/jquery-2.2.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/jquery.mousewheel-3.0.6.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/source — копия/helpers/jquery.fancybox-buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/source — копия/helpers/jquery.fancybox-media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/source — копия/helpers/jquery.fancybox-thumbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/source — копия/jquery.fancybox.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/source/helpers/jquery.fancybox-buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/source/helpers/jquery.fancybox-media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/source/helpers/jquery.fancybox-thumbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/source/jquery.fancybox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/js/source/jquery.fancybox.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/roomlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dest/single-room.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grunt-merge-media.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/aparts/aparts.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/aparts/aparts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/btn/btn.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/foot-head.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/form-header/form-header.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/form-header/form-header.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/form/form.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/form/form.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/form/form2.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/form/form2.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/global/global.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/index-gallery/index-gallery.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/index-gallery/index-gallery.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/input-contacts/input-contacts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/jquery.fancybox.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/length-stay/length-stay.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/length-stay/length-stay.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/location/location.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/location/location.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/logo/logo.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/logo/logo.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/main-nav/main-nav.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/main-nav/main-nav.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/mixins.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/nav-display/nav-display.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/nav-display/nav-display.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/offers/offers.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/offers/offers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/other-rooms/other-rooms.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/other-rooms/other-rooms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/owl.carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/page-footer/page-footer.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/page-footer/page-footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/page-header/page-header.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/page-header/page-header.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/payment/payment.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/payment/payment.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/rest-tabs/rest-tabs.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/rest-tabs/rest-tabs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/reviews/reviews.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/reviews/reviews.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/room-list/room-list.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/room-list/room-list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/rooms-header/rooms-header.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/rooms-header/rooms-header.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/single-room/single-room.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/single-room/single-room.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/slick-carusel/slick-theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/slick-carusel/slick.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/switch-rooms/switch-rooms.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/switch-rooms/switch-rooms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/type-hotel/type-hotel.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/type-hotel/type-hotel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/type-price/type-price.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/type-price/type-price.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/variables/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/your/your.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/blocks/your/your.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/.csscomb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/clearfix.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/reset-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/css/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-500.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-500.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-500.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-700.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-700.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-700.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/fira-sans-v5-latin_cyrillic-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/pt-serif-caption-v8-cyrillic_latin-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/pt-serif-caption-v8-cyrillic_latin-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/fonts/pt-serif-caption-v8-cyrillic_latin-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/form.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/ico-NO.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/ico-OK.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/img/sprites.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/fancy/helpers/jquery.fancybox-buttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/fancy/helpers/jquery.fancybox-buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/fancy/helpers/jquery.fancybox-media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/fancy/helpers/jquery.fancybox-thumbs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/fancy/helpers/jquery.fancybox-thumbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/fancy/jquery.fancybox.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/jquery-2.2.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/jquery.mousewheel-3.0.6.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/roomlist.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/single-room.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-500.woff" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-500.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-500.woff2" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-500.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-700.woff" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-700.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-700.woff2" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-700.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-regular.woff" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-regular.woff2" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/pt-serif-caption-v8-cyrillic_latin-regular.woff" afterPath="$PROJECT_DIR$/dest/fonts/pt-serif-caption-v8-cyrillic_latin-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/pt-serif-caption-v8-cyrillic_latin-regular.woff2" afterPath="$PROJECT_DIR$/dest/fonts/pt-serif-caption-v8-cyrillic_latin-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/blocks/btn/img/icon-calendar.png" afterPath="$PROJECT_DIR$/source/blocks/btn/img/icon-calendar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/blocks/btn/img/icon-face-second.png" afterPath="$PROJECT_DIR$/source/blocks/btn/img/icon-face-second.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/blocks/btn/img/icon-facebook.png" afterPath="$PROJECT_DIR$/source/blocks/btn/img/icon-facebook.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/blocks/btn/img/icon-insta-second.png" afterPath="$PROJECT_DIR$/source/blocks/btn/img/icon-insta-second.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/blocks/btn/img/icon-vk-second.png" afterPath="$PROJECT_DIR$/source/blocks/btn/img/icon-vk-second.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/blocks/btn/img/icon-vk.png" afterPath="$PROJECT_DIR$/source/blocks/btn/img/icon-vk.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/blocks/logo/img/logo.png" afterPath="$PROJECT_DIR$/source/blocks/logo/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/img/icon-calendar.png" afterPath="$PROJECT_DIR$/source/img/icon-calendar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/img/icon-face-second.png" afterPath="$PROJECT_DIR$/source/img/icon-face-second.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/img/icon-facebook.png" afterPath="$PROJECT_DIR$/source/img/icon-facebook.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/img/icon-insta-second.png" afterPath="$PROJECT_DIR$/source/img/icon-insta-second.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/img/icon-vk-second.png" afterPath="$PROJECT_DIR$/source/img/icon-vk-second.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/img/icon-vk.png" afterPath="$PROJECT_DIR$/source/img/icon-vk.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/img/logo.png" afterPath="$PROJECT_DIR$/source/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-500.eot" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-500.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-500.svg" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-500.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-500.ttf" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-500.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-700.eot" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-700.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-700.svg" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-700.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-700.ttf" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-700.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-regular.eot" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-regular.svg" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-regular.ttf" afterPath="$PROJECT_DIR$/dest/fonts/fira-sans-v5-latin_cyrillic-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/pt-serif-caption-v8-cyrillic_latin-regular.eot" afterPath="$PROJECT_DIR$/dest/fonts/pt-serif-caption-v8-cyrillic_latin-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/pt-serif-caption-v8-cyrillic_latin-regular.svg" afterPath="$PROJECT_DIR$/dest/fonts/pt-serif-caption-v8-cyrillic_latin-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dest/fonts/pt-serif-caption-v8-cyrillic_latin-regular.ttf" afterPath="$PROJECT_DIR$/dest/fonts/pt-serif-caption-v8-cyrillic_latin-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/blocks/input-contacts/input-contacts.less" afterPath="$PROJECT_DIR$/source/blocks/input-contacts/input-contacts.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/blocks/typography/typography.less" afterPath="$PROJECT_DIR$/source/blocks/typography/typography.less" />
     </list>
     <ignored path="EPICK.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,7 +426,18 @@
     <favorites_list name="EPICK" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12830189">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,7 +453,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/blocks/length-stay/length-stay.less" />
         <option value="$PROJECT_DIR$/source/blocks/type-hotel/type-hotel.jade" />
         <option value="$PROJECT_DIR$/source/blocks/type-hotel/type-hotel.less" />
         <option value="$PROJECT_DIR$/source/blocks/other-rooms/other-rooms.less" />
@@ -150,6 +503,7 @@
         <option value="$PROJECT_DIR$/source/blocks/slick-carusel/slick-theme.less" />
         <option value="$PROJECT_DIR$/source/js/script.js" />
         <option value="$PROJECT_DIR$/source/blocks/nav-display/nav-display.less" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -160,7 +514,6 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
@@ -208,7 +561,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,9 +570,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EPICK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Epick" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EPICK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Epick" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,25 +694,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+    <frame x="-8" y="0" width="1370" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.243994" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6735043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -396,10 +773,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/old/form.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26407766">
-          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="76" selection-end-column="105" />
+        <state vertical-scroll-proportion="0.12830189">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

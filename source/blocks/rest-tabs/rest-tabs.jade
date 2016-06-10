@@ -1,0 +1,40 @@
+section.rest-tabs
+    ul.rest-tabs__switcher
+        li.rest-tabs__tab
+            a.rest-tabs__btn.rest-tabs__tab-active(href="javascript:void(0)" onclick="restSwitch_off()") семейный отдых
+        li.rest-tabs__tab
+            a.rest-tabs__btn(href="javascript:void(0)" onclick="restSwitch_on()") корпоративный
+    .rest-tabs__top#restTop_1
+        .rest-tabs__top-item
+            .rest-tabs__top-item-inner
+                p.rest-tabs__top-header
+                    span Семейный отдых на  берегу Финского залива
+                p.rest-tabs__top-description
+                    span.
+                        Green Valley - это современная база отдыха
+                        в курортном районе для здорового отдыха всей семёй.
+        .rest-tabs__top-item.rest-tabs-item--hidden
+            .rest-tabs__top-item-inner
+                p.rest-tabs__top-header
+                    span Корпоративный отдых на  берегу Финского залива
+                p.rest-tabs__top-description
+                    span.
+                        Green Valley - это современная база отдыха
+                        в курортном районе для корпоративов.
+    .rest-tabs__bottom#restBottom_1
+        .rest-tabs__bottom-item
+            .rest-tabs__bottom-item-inner
+                p.rest-tabs__bottom-title Здоровый отдых
+                p.rest-tabs__bottom-description.
+                    Плавайте в бассейне, играйте в волейбол, футбол и другие игры.
+                    Устройте семейный пикник с шашлыками или снимите напряжение в бане или спа.
+                    Почувствуйте отдых!
+                +servicelist("rest-tabs__services","rest-tabs__service")
+        .rest-tabs__bottom-item.rest-tabs-item--hidden
+            .rest-tabs__bottom-item-inner
+                p.rest-tabs__bottom-title Корпоративный отдых
+                p.rest-tabs__bottom-description.
+                    Плавайте в бассейне, играйте в волейбол, футбол и другие игры.
+                    Устройте семейный пикник с шашлыками или снимите напряжениев бане или спа.
+                    Почувствуйте отдых!
+                +servicelist("rest-tabs__services","rest-tabs__service")

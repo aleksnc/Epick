@@ -1,0 +1,36 @@
+mixin spanwrapper(text)
+    each symv in text
+        span.span--wrapper= symv
+
+mixin servicelist(classul,classli)
+    ul(class=classul)
+        each name,index in {pool:'бассейн', footbal:'спортивная площадка', billiard:'бильярд', spa:'спа', bani:'бани', child:'анимация'}
+            li(class=classli)(style="background: url('img/"+index+".png') no-repeat")
+                a(href="#")= name
+
+
+mixin pageHeader(classLine)
+
+    header.page-header
+        .page-header__inner
+            .page-header__wrapper-logo
+                include logo/logo.jade
+            nav.main-nav
+                ul.main-nav__list
+                    li.main-nav__link(class=classLine)
+                        a(href="roomlist.html")номера
+                    li.main-nav__link(class=classLine)
+                        a(href="single-room.html")коттедж
+                    li.main-nav__link(class=classLine)
+                        a(href="#")ресторан
+                    li.main-nav__link(class=classLine)
+                        a(href="#") отдых
+                    li.main-nav__link(class=classLine)
+                        a(href="#") контакты
+                span#main-nav__burger.main-nav__burger(onclick="burgerToggl()")
+            .page-header__contacts
+                a(href="tel:+78127775588") +7 812 777-55-88
+                | г. Санкт-Петербург, Приморское ш.600
+            a.btn.btn--icon-calendar.btn--header-lg(href="form.html") Забронировать
+            include nav-display/nav-display.jade
+

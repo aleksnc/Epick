@@ -1,0 +1,222 @@
+.rest-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
+
+  &__switcher{
+    margin:                             0 auto;
+  }
+
+
+  &__tab {
+    text-transform:                     uppercase;
+    font-size:                          @text-size-sm;
+    display:                            inline-block;
+    margin:                             10px;
+  }
+
+  &__btn{
+    color:                              @gray;
+
+    &:active {
+      color:                            @color-second;
+    }
+    &:active:after {
+      content:                          "";
+      display:                          block;
+      width:                            30px;
+      border-bottom:                    2px solid @color-second;
+      margin:                           0 auto;
+    }
+    &:hover{
+      color:                            @color-second;
+    }
+  }
+
+  &__tab-active{
+    color:                              @color-second;
+    &:after{
+      content:                          "";
+      display:                          block;
+      width:                            30px;
+      border-bottom:                    2px solid @color-second;
+      margin:                           0 auto;
+    }
+  }
+
+  &__top{
+    order:                              -1;
+    display:                            block;
+    transition:                         ease-in-out transform 400ms;
+    width:                              100%;
+    height:                             320px;
+
+  }
+
+  &__top-item{
+    background:                         url('@{img-path}h-index.jpg') no-repeat;
+    min-width:                          320px;
+    min-height:                         320px;
+    background-size:                    cover;
+    transition:                         width 1s ease-out 0.5s;
+    transform:                          translate3d(0, 0, 0);
+    padding-top:                        20px;
+    @media(min-width: 768px){
+      padding-top:                      0px;
+    }
+  }
+
+  &__top-item-inner{
+    display:                            block;
+    padding:                            20px;
+    text-align:                         center;
+    background:                         rgba(255, 255, 255, 0.84);
+
+    @media(min-width: 768px){
+      text-align:                       left;
+      max-width:                        590px;
+      background:                       rgba(255, 255, 255, 0);
+    }
+
+    @media (min-width: 1200px){
+      max-width:                        1200px;
+      margin:                           0 auto;
+      padding:                          20px 0;
+    }
+  }
+
+  &__top-header{
+    font-family:                        @font-family-h;
+    font-size:                          @text-size-l;
+
+    @media(min-width: 768px){
+      font-size:                        @text-size-xxl;
+      max-width:                        590px;
+
+      span {
+        background:                     rgba(255, 255, 255, 0.84);
+      }
+    }
+  }
+
+  &__top-description{
+    font-family:                        @font-family-h;
+    font-size:                          @text-size;
+
+    @media(min-width: 768px){
+      font-size:                        @text-size-l;
+      max-width:                        590px;
+
+      span {
+        background:                     rgba(255, 255, 255, 0.84);
+      }
+    }
+  }
+
+  &__bottom{
+    display:                            block;
+    transition:                         ease-in-out transform 400ms;
+    width:                              100%;
+    height:                             320px;
+
+    @media (min-width: 768px){
+      height:                           450px;
+    }
+  }
+
+  &__bottom-item{
+    display: flex;
+    align-items: center;
+    min-width:                          320px;
+    min-height:                         320px;
+    transition:                         width 1s ease-out 0.5s;
+    transform:                          translate3d(0, 0, 0);
+  }
+
+  &__bottom-item-inner{
+    background:                         url('@{img-path}sky.png') no-repeat;
+    background-position-x:              center;
+    display:                            block;
+    max-width:                          600px;
+    margin:                             0 auto;
+    text-align:                         center;
+    padding-top: 50px;
+
+    @media (min-width: 768px){
+      max-width:                        820px;
+      background-size:                    100%;
+    }
+  }
+
+  &__bottom-title{
+    &:extend(.title);
+    text-align:                         center;
+    max-width: 225px;
+    margin: 0 auto;
+
+    @media (min-width: 450px){
+      max-width:                        100%
+    }
+
+    @media (min-width: 768px){
+      max-width: 100%;
+    }
+  }
+
+  &__bottom-description{
+    font-size:                         @text-size;
+    text-align:                        center;
+    padding:                           0 10px;
+    max-width:                         600px;
+    margin:                            10px auto;
+
+  }
+
+  &__services {
+    color:                             @gray-dark;
+    font-size:                         @text-size-sm;
+    text-transform:                    uppercase;
+    font-weight:                       500;
+    display:                           none;
+    text-align:                        center;
+    max-width:                         600px;
+
+    @media (min-width: 768px){
+      display:                         block;
+    }
+
+    @media (min-width: 1200px){
+      display:                         block;
+      max-width:                       100%;
+    }
+  }
+
+  &__service{
+    position:                          relative;
+    display:                           inline-block;
+    width:                             80px;
+    height:                            80px;
+    border-radius:                     40px;
+    margin:                            10px 20px 45px 20px;
+
+    a{
+      top: 90px;
+      width: 100%;
+      text-align: center;
+      display: block;
+      position: absolute;
+    }
+  }
+
+}
+
+
+.rest-tabs--switch-width{
+  transform:                          translate3d(-100%, 0, 0);
+  transition:                         ease-in-out transform 400ms;
+}
+
+.rest-tabs-item--hidden{
+  transform:                          translate3d(100%, -100%, 0);
+}

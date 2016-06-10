@@ -1,0 +1,91 @@
+.reviews{
+  background:                     url('@{img-path}bg-social.png')  no-repeat;
+  background-size:                cover;
+  text-align:                     center;
+  margin-top:                     50px;
+  padding:                        40px 0;
+  min-height:                     517px;
+
+  &__main {
+    width:                        100%;
+    max-width:                    980px;
+    margin:                       0 auto;
+  }
+
+  &__title{
+  &:extend(.title);
+    color:                        #ffffff;
+    margin-bottom:                40px;
+  }
+
+  .slick-slide{
+    outline: none;
+  }
+
+  .slick-prev, .slick-next{
+    left:                         -45px;
+    border-left:                  2px solid #fff;
+    border-top:                   2px solid #fff;
+    width:                        40px;
+    height:                       40px;
+    transform:                    rotate(-45deg);
+  }
+
+  .slick-next{
+    left:                         inherit;
+    right:                        -45px;
+    transform:                    rotate(135deg);
+  }
+
+
+  .slick-prev:before, .slick-next:before{
+    content:                      " ";
+    display:                      none;
+  }
+
+  &__btn-wrapper{
+    margin:                       40px auto 0;
+    width:                        180px;
+  }
+
+}
+
+.review{
+
+  @media (min-width: 768px) {
+    max-width:                    480px;
+    margin:                       0 auto;
+  }
+
+  &__user-info{
+    background:                   #fff;
+    padding-bottom:               20px;
+    margin: 20px 0;
+
+  }
+
+  &__user-img{
+    width:                        82px;
+    height:                       82px;
+    border:                       solid 2px #fff;
+    margin:                       0 auto;
+    transform:                    translate(0,-20px);
+  }
+
+  &__user-name{
+    display:                      block;
+  }
+
+  &__comment{
+    margin:                      0 40px;
+  }
+
+  &__data-stay{
+    margin: 10px 0 0;
+
+    span{
+      display: block;
+    }
+  }
+}
+

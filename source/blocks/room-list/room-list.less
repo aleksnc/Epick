@@ -1,0 +1,98 @@
+.room-list{
+  text-align:                           center;
+  width:                                100%;
+  position:                             relative;
+
+  &__room{
+    width:                                100%;
+    max-width:                            1200px;
+    margin:                               0 auto;
+    @media (min-width: 768px){
+      padding:                            20px;
+    }
+  }
+
+  &__title{
+    font-size:                          @text-size-xl;
+    font-family:                        @font-family-h;
+  }
+
+  &__room-info{
+    display:                            flex;
+    flex-direction:                     column;
+    flex-wrap:                          wrap;
+    align-items:                        center;
+    background:                         @gray-wight;
+    padding:                            30px 0;
+    margin:                             50px 0;
+
+    @media (min-width: 1200px){
+      padding:                          0;
+      max-height:                       320px;
+    }
+  }
+
+  &__room-img{
+    width:                               100%;
+    display: block;
+    position: relative;
+
+    @media (min-width: 768px){
+      max-width:                       580px;
+    }
+
+    @media (min-width: 1200px){
+      order:                           1;
+      align-self: flex-end;
+    }
+  }
+
+  &__room-type{
+    flex-grow: 1;
+    display:                            block;
+    font-family:                        @font-family-h;
+    font-size:                          (@text-size-xl)-4;
+    margin-bottom: 30px;
+
+    @media (min-width: 1200px){
+      margin:                           20px 0;
+    }
+
+  }
+
+  &__room-price{
+    display:                            block;
+    font-family:                        @font-family;
+    font-size:                          @text-size-sm;
+    font-weight:                        600;
+  }
+
+  &__room-description{
+    display:                            block;
+    position:                           relative;
+    width:                              100%;
+    max-width:                          388px;
+    text-align:                         left;
+    margin:                             30px 0;
+    padding:                            0 20px;
+  }
+
+  &__btn{
+    display:                            flex;
+    flex-direction:                     column;
+    align-items:                        center;
+    flex-wrap:                          wrap;
+    margin-top:                         30px;
+    text-align:                         center;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+
+  &__room-about{
+    display:                            block;
+    letter-spacing:                     -0.5px;
+  }
+}
