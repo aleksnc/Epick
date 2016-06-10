@@ -17,9 +17,9 @@ module.exports = function(grunt){
       dynamic: {
         files: [{
           expand: true,
-          cwd: 'source/',
+          cwd: 'source/img/',
           src: ['**/*.{png,jpg,gif,svg}'],
-          dest: 'dest/'
+          dest: 'dest/img/'
         }]
       }
     },
@@ -59,14 +59,14 @@ module.exports = function(grunt){
     },
     autoprefixer:{
       options: {
-        browsers: ['> 1%', 'last 3 versions', 'Firefox ESR', 'Opera 12.1'],
+        browsers: ['> 1%', 'last 5 versions', 'Firefox ESR', 'Opera 12.1'],
         cascade: false
       },
       multiple_files: {
         expand: true,
         flatten: true,
         src: 'dest/css/*.css',
-        dest: 'dest/'
+        dest: 'dest/css/'
       }
     },
     copy: {
@@ -97,7 +97,7 @@ module.exports = function(grunt){
         tasks: ['copy:css','cmq'],
       },
       jade: {
-        files: ['source/**/*.jade'],
+        files: ['source/*.jade'],
         tasks: ['jade'],
       },
       less: {

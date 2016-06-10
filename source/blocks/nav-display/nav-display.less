@@ -2,7 +2,7 @@
   display:                       block;
   width:                         100%;
   text-transform:                uppercase;
-  height:                        0;
+  height:                        100%;
   overflow:                      hidden;
   transition:                    height 1s ease-out 0.5s;
 
@@ -43,6 +43,7 @@
     height:                       25px;
     background:                   url('@{img-path}icon-burger.png') no-repeat;
     align-self:                   center;
+
     @media (min-width: 1200px) {
       display: none;
     }
@@ -50,7 +51,14 @@
 
   &--show{
     display: block;
-    height: 200px;
-    transition: height 1s ease-out 0.5s;
+  }
+
+  &> ul li{
+    margin-top: -39px;
+    transition: 0.4s linear
+  }
+  
+  &--show > ul li{
+    margin-top:0;
   }
 }
